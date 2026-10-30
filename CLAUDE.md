@@ -23,7 +23,24 @@ https://claude.ai/artifact/RYwzd87JHpqLjXN3HPG6Wj
   status). A failed source keeps its upcoming events from the last run.
 - `data/markets.json`, `data/running.json`: **hand-kept**, see their `about` lines.
 - `.github/workflows/update.yml`: runs the script 4×/day (GitHub skips some scheduled runs), commits only when
-  something besides `updated` changed, then fails the run (GitHub emails) if any source failed.
+  something besides `updated` changed, then fails the run (GitHub emails) if any source failed, or if the
+  Mac-only sources haven't been refreshed for 14 days.
+- `scripts/refresh-local.sh` + `scripts/com.mattrudy13.out-and-about.plist`: the weekly Mac job (below).
+
+## Mac-only sources (The Z, Little Theatre)
+
+Both sites are behind Cloudflare, which answered GitHub's servers with HTTP 403 on 2026-10-30 but serves a
+home connection. Rudy's choice: refresh them from his Mac. Don't try to get around the block (browser
+User-Agent, proxies): it's the sites' choice.
+
+- On Actions (`GITHUB_ACTIONS=true`) the script skips them and keeps their last listings; `sources[...].checked`
+  is each source's last success and `macOnly: true` marks them.
+- `scripts/refresh-local.sh` (Sundays 10 AM via launchd; on the next wake if the Mac was asleep) pulls main, runs
+  `node scripts/events.mjs --local` (only these two; everything else is kept as is), and commits + pushes
+  `data/events.json` if it changed. Log: `~/Library/Logs/out-and-about-refresh.log`. Try it without pushing:
+  `scripts/refresh-local.sh --no-push`. Run it now: `launchctl kickstart gui/$(id -u)/com.mattrudy13.out-and-about`.
+- Install (done once): `cp scripts/com.mattrudy13.out-and-about.plist ~/Library/LaunchAgents/ && launchctl
+  bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.mattrudy13.out-and-about.plist`.
 
 ## Sources
 

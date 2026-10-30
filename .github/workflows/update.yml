@@ -54,11 +54,17 @@ jobs:
           git commit -m "chore(data): refresh events $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase -q
           git push
-      # Fail the run (GitHub emails) when a source failed, after pushing whatever did work.
+      # Fail the run (GitHub emails) when a source failed, after pushing whatever did work. The Mac-only
+      # sources (The Z, Little Theatre) aren't fetched here, so they only count once Rudy's Mac hasn't
+      # refreshed them for 14 days: that means the weekly job has stopped.
       - name: Report failed sources
         run: |
           node -e '
             const s = JSON.parse(require("fs").readFileSync("data/events.json", "utf8")).sources;
-            const bad = Object.entries(s).filter(([, v]) => !v.ok);
-            if (bad.length) { console.log(bad.map(([n, v]) => `${n}: ${v.error}`).join("\n")); process.exit(1); }
+            const stale = (v) => v.checked && Date.now() - new Date(v.checked) > 14 * 86400000;
+            const bad = Object.entries(s).filter(([, v]) => (v.macOnly ? stale(v) : !v.ok));
+            if (bad.length) {
+              console.log(bad.map(([n, v]) => v.macOnly ? `${n}: not refreshed from the Mac since ${v.checked}` : `${n}: ${v.error}`).join("\n"));
+              process.exit(1);
+            }
           '
