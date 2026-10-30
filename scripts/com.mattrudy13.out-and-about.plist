@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!-- Runs scripts/refresh-local.sh Sundays at 10 AM. If the Mac is asleep then, launchd runs it on the next
-     wake. Install: copy to ~/Library/LaunchAgents/ and `launchctl bootstrap gui/$(id -u) <that path>`. -->
+     wake. It runs from the job's own clone, not ~/Desktop, which macOS doesn't let background jobs read.
+     Install steps: CLAUDE.md, "Mac-only sources". -->
 <plist version="1.0">
 <dict>
   <key>Label</key>
@@ -9,7 +10,7 @@
   <key>ProgramArguments</key>
   <array>
     <string>/bin/zsh</string>
-    <string>/Users/rudy/Desktop/coding/GitHub/out-and-about/scripts/refresh-local.sh</string>
+    <string>/Users/rudy/.local/share/out-and-about/scripts/refresh-local.sh</string>
   </array>
   <key>StartCalendarInterval</key>
   <dict>

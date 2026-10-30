@@ -39,8 +39,14 @@ User-Agent, proxies): it's the sites' choice.
   `node scripts/events.mjs --local` (only these two; everything else is kept as is), and commits + pushes
   `data/events.json` if it changed. Log: `~/Library/Logs/out-and-about-refresh.log`. Try it without pushing:
   `scripts/refresh-local.sh --no-push`. Run it now: `launchctl kickstart gui/$(id -u)/com.mattrudy13.out-and-about`.
-- Install (done once): `cp scripts/com.mattrudy13.out-and-about.plist ~/Library/LaunchAgents/ && launchctl
-  bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.mattrudy13.out-and-about.plist`.
+- **It runs from its own clone, `~/.local/share/out-and-about`**, not the working copy on the Desktop: macOS
+  privacy protection doesn't let launchd jobs read `~/Desktop` (first install, 2026-10-29: exit 127, "can't open
+  input file"). The script pulls before each run, so the clone keeps itself current; don't edit it by hand.
+- Install (done once): `git clone https://github.com/mattrudy13/out-and-about.git ~/.local/share/out-and-about`,
+  `cp ~/.local/share/out-and-about/scripts/com.mattrudy13.out-and-about.plist ~/Library/LaunchAgents/`, then
+  `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.mattrudy13.out-and-about.plist`. To reinstall after
+  a plist change, `launchctl bootout gui/$(id -u)/com.mattrudy13.out-and-about` first (bootstrapping a loaded job
+  fails with "5: Input/output error").
 
 ## Sources
 
