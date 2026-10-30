@@ -1,0 +1,23 @@
+{
+  "about": "Hand-kept: exhibitions and other long runs that no feed lists. Shown under 'Running for a while' from 4 weeks before 'from' until 'to'. Plays at The Z and Little Theatre are added automatically. Checked 2026-10-29.",
+  "running": [
+    {
+      "title": "Made in VA Biennial 2026",
+      "kind": "Art",
+      "place": "Virginia MOCA",
+      "city": "Virginia Beach",
+      "url": "https://virginiamoca.org/",
+      "from": "2026-09-11",
+      "to": "2027-03-21"
+    },
+    {
+      "title": "Vivian Chiu: From Here",
+      "kind": "Art",
+      "place": "Virginia MOCA",
+      "city": "Virginia Beach",
+      "url": "https://virginiamoca.org/",
+      "from": "2026-09-11",
+      "to": "2027-03-21"
+    }
+  ]
+}

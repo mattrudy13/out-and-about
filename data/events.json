@@ -1,0 +1,373 @@
+{
+  "updated": "2026-10-30T02:45:29.914Z",
+  "from": "2026-10-29",
+  "to": "2026-11-25",
+  "sources": {
+    "The Z": {
+      "ok": true,
+      "events": 1
+    },
+    "Virginia MOCA": {
+      "ok": true,
+      "events": 1
+    },
+    "Virginia Symphony": {
+      "ok": true,
+      "events": 4
+    },
+    "Norfolk Arts": {
+      "ok": true,
+      "events": 5
+    },
+    "Little Theatre of VB": {
+      "ok": true,
+      "events": 1
+    },
+    "Ticketmaster": {
+      "ok": false,
+      "error": "TICKETMASTER_KEY isn't set",
+      "keptFromLastRun": 0
+    },
+    "Farmers markets": {
+      "ok": true,
+      "events": 11
+    },
+    "Running (hand-kept)": {
+      "ok": true,
+      "events": 0
+    }
+  },
+  "events": [
+    {
+      "title": "Jazz Got Loose Opening Reception",
+      "kind": "Art",
+      "place": "The Gallery at the Attucks Theatre",
+      "city": "Norfolk",
+      "url": "https://norfolkarts.net/event/jazz-got-loose-opening-reception-october-30-6-8pm-at-the-gallery-at-the-attucks/",
+      "free": false,
+      "date": "2026-10-30",
+      "time": "17:00",
+      "note": null,
+      "source": "Norfolk Arts"
+    },
+    {
+      "title": "East Beach Farmers Market",
+      "date": "2026-10-31",
+      "time": "09:00",
+      "kind": "Market",
+      "place": "Bay Oaks Park, 2413 E Ocean View Ave",
+      "city": "Norfolk",
+      "url": "https://www.visitnorfolk.com/event/east-beach-farmers-market-weekly",
+      "free": true,
+      "note": "Free",
+      "source": "Farmers markets"
+    },
+    {
+      "title": "Old Beach Farmers Market",
+      "date": "2026-10-31",
+      "time": "09:00",
+      "kind": "Market",
+      "place": "19th St, Old Beach",
+      "city": "Virginia Beach",
+      "url": "https://marketspread.com/market/9028/old-beach-farmers-market",
+      "free": true,
+      "note": "Free",
+      "source": "Farmers markets"
+    },
+    {
+      "title": "Shore Drive Farm Market",
+      "date": "2026-10-31",
+      "time": "09:00",
+      "kind": "Market",
+      "place": "Shore Drive",
+      "city": "Virginia Beach",
+      "url": "https://marketspread.com/market/12678/shore-drive-farm-market/",
+      "free": true,
+      "note": "Free · check the date before you go",
+      "source": "Farmers markets"
+    },
+    {
+      "title": "Artist in Residence: Andy Harris",
+      "kind": "Art",
+      "place": "Virginia MOCA",
+      "city": "Virginia Beach",
+      "url": "https://virginiamoca.org/event/artist-in-residence-andy-harris/",
+      "free": false,
+      "date": "2026-11-04",
+      "time": "10:00",
+      "note": "Runs through Nov 8",
+      "source": "Virginia MOCA"
+    },
+    {
+      "title": "VA Opera: Pagliacci",
+      "kind": "Theater",
+      "place": "Harrison Opera House",
+      "city": "Norfolk",
+      "url": "https://virginiasymphony.org/event/va-opera-pagliacci/",
+      "free": false,
+      "date": "2026-11-06",
+      "time": "19:30",
+      "note": null,
+      "source": "Virginia Symphony"
+    },
+    {
+      "title": "East Beach Farmers Market",
+      "date": "2026-11-07",
+      "time": "09:00",
+      "kind": "Market",
+      "place": "Bay Oaks Park, 2413 E Ocean View Ave",
+      "city": "Norfolk",
+      "url": "https://www.visitnorfolk.com/event/east-beach-farmers-market-weekly",
+      "free": true,
+      "note": "Free",
+      "source": "Farmers markets"
+    },
+    {
+      "title": "Old Beach Farmers Market",
+      "date": "2026-11-07",
+      "time": "09:00",
+      "kind": "Market",
+      "place": "19th St, Old Beach",
+      "city": "Virginia Beach",
+      "url": "https://marketspread.com/market/9028/old-beach-farmers-market",
+      "free": true,
+      "note": "Free · check the date before you go",
+      "source": "Farmers markets"
+    },
+    {
+      "title": "Shore Drive Farm Market",
+      "date": "2026-11-07",
+      "time": "09:00",
+      "kind": "Market",
+      "place": "Shore Drive",
+      "city": "Virginia Beach",
+      "url": "https://marketspread.com/market/12678/shore-drive-farm-market/",
+      "free": true,
+      "note": "Free · check the date before you go",
+      "source": "Farmers markets"
+    },
+    {
+      "title": "VA Opera: Pagliacci",
+      "kind": "Theater",
+      "place": "Harrison Opera House",
+      "city": "Norfolk",
+      "url": "https://virginiasymphony.org/event/va-opera-pagliacci-2/",
+      "free": false,
+      "date": "2026-11-08",
+      "time": "14:30",
+      "note": null,
+      "source": "Virginia Symphony"
+    },
+    {
+      "title": "Offsite Gallery at TCC VADC opening reception: “Ink & Exposure” a group exhibition by Heather Mitcham, Victor Perrotti and Michal Mahgerefteh",
+      "kind": "Art",
+      "place": "Tidewater Community College Visual Art & Design Center",
+      "city": "Norfolk",
+      "url": "https://norfolkarts.net/event/offsite-gallery-at-tcc-vadc-opening-reception-victor-perrotti-heather-mitcham-and-hanna-kirby/",
+      "free": false,
+      "date": "2026-11-12",
+      "time": "17:00",
+      "note": null,
+      "source": "Norfolk Arts"
+    },
+    {
+      "title": "The Humanitarian",
+      "kind": "Theater",
+      "place": "The Z (Zeiders American Dream Theater)",
+      "city": "Virginia Beach",
+      "url": "https://thez.org/event/the-humanitarian/",
+      "free": false,
+      "date": "2026-11-13",
+      "time": "19:30",
+      "note": "Runs through Nov 21",
+      "source": "The Z"
+    },
+    {
+      "title": "East Beach Farmers Market",
+      "date": "2026-11-14",
+      "time": "09:00",
+      "kind": "Market",
+      "place": "Bay Oaks Park, 2413 E Ocean View Ave",
+      "city": "Norfolk",
+      "url": "https://www.visitnorfolk.com/event/east-beach-farmers-market-weekly",
+      "free": true,
+      "note": "Free",
+      "source": "Farmers markets"
+    },
+    {
+      "title": "Shore Drive Farm Market",
+      "date": "2026-11-14",
+      "time": "09:00",
+      "kind": "Market",
+      "place": "Shore Drive",
+      "city": "Virginia Beach",
+      "url": "https://marketspread.com/market/12678/shore-drive-farm-market/",
+      "free": true,
+      "note": "Free · check the date before you go",
+      "source": "Farmers markets"
+    },
+    {
+      "title": "Pre-show performance inside The Gallery at the Attucks prior to all Virginia Arts Festival Attucks Jazz Club events",
+      "kind": "Art",
+      "place": "The Gallery at the Attucks Theatre",
+      "city": "Norfolk",
+      "url": "https://norfolkarts.net/event/free-pre-show-performance-inside-the-gallery-at-the-attucks-prior-to-all-virginia-arts-festival-attucks-jazz-club-events/2026-11-14/",
+      "free": true,
+      "date": "2026-11-14",
+      "time": "18:30",
+      "note": "Free",
+      "source": "Norfolk Arts"
+    },
+    {
+      "title": "Norfolk Arts grantee event! “Arts at the Attucks”",
+      "kind": "Art",
+      "place": "Attucks Theatre",
+      "city": "Norfolk",
+      "url": "https://norfolkarts.net/event/free-norfolk-arts-grantee-event-arts-at-the-attucks/2026-11-15/",
+      "free": true,
+      "date": "2026-11-15",
+      "time": "15:00",
+      "note": "Free",
+      "source": "Norfolk Arts"
+    },
+    {
+      "title": "A Very Merry Musical Market",
+      "kind": "Music",
+      "place": "Elation Brewing",
+      "city": "Norfolk",
+      "url": "https://virginiasymphony.org/event/a-very-merry-musical-market/",
+      "free": false,
+      "date": "2026-11-18",
+      "time": "18:00",
+      "note": null,
+      "source": "Virginia Symphony"
+    },
+    {
+      "title": "Thursday Art Brew",
+      "kind": "Art",
+      "place": "The Gallery at the Attucks Theatre",
+      "city": "Norfolk",
+      "url": "https://norfolkarts.net/event/thursday-art-brew-2/",
+      "free": true,
+      "date": "2026-11-19",
+      "time": "17:30",
+      "note": "Free",
+      "source": "Norfolk Arts"
+    },
+    {
+      "title": "Benefit Concert for The Muse Writers Center",
+      "kind": "Music",
+      "place": "Harrison Opera House",
+      "city": "Norfolk",
+      "url": "https://virginiasymphony.org/event/torch-benefit-concert/",
+      "free": false,
+      "date": "2026-11-20",
+      "time": "19:30",
+      "note": null,
+      "source": "Virginia Symphony"
+    },
+    {
+      "title": "Funny Girl opens",
+      "kind": "Theater",
+      "place": "Little Theatre of Virginia Beach",
+      "city": "Virginia Beach",
+      "url": "https://ltvb.com/shows/funny-girl/",
+      "free": false,
+      "date": "2026-11-20",
+      "time": null,
+      "note": "Runs through Dec 13",
+      "source": "Little Theatre of VB"
+    },
+    {
+      "title": "East Beach Farmers Market",
+      "date": "2026-11-21",
+      "time": "09:00",
+      "kind": "Market",
+      "place": "Bay Oaks Park, 2413 E Ocean View Ave",
+      "city": "Norfolk",
+      "url": "https://www.visitnorfolk.com/event/east-beach-farmers-market-weekly",
+      "free": true,
+      "note": "Free",
+      "source": "Farmers markets"
+    },
+    {
+      "title": "Old Beach Farmers Market",
+      "date": "2026-11-21",
+      "time": "09:00",
+      "kind": "Market",
+      "place": "19th St, Old Beach",
+      "city": "Virginia Beach",
+      "url": "https://marketspread.com/market/9028/old-beach-farmers-market",
+      "free": true,
+      "note": "Free · check the date before you go",
+      "source": "Farmers markets"
+    },
+    {
+      "title": "Shore Drive Farm Market",
+      "date": "2026-11-21",
+      "time": "09:00",
+      "kind": "Market",
+      "place": "Shore Drive",
+      "city": "Virginia Beach",
+      "url": "https://marketspread.com/market/12678/shore-drive-farm-market/",
+      "free": true,
+      "note": "Free · check the date before you go",
+      "source": "Farmers markets"
+    }
+  ],
+  "running": [
+    {
+      "title": "Artist in Residence: Andy Harris",
+      "kind": "Art",
+      "place": "Virginia MOCA",
+      "city": "Virginia Beach",
+      "url": "https://virginiamoca.org/event/artist-in-residence-andy-harris/",
+      "free": false,
+      "from": "2026-11-04",
+      "to": "2026-11-08",
+      "source": "Virginia MOCA"
+    },
+    {
+      "title": "The Humanitarian",
+      "kind": "Theater",
+      "place": "The Z (Zeiders American Dream Theater)",
+      "city": "Virginia Beach",
+      "url": "https://thez.org/event/the-humanitarian/",
+      "free": false,
+      "from": "2026-11-13",
+      "to": "2026-11-21",
+      "source": "The Z"
+    },
+    {
+      "title": "Funny Girl",
+      "kind": "Theater",
+      "place": "Little Theatre of Virginia Beach",
+      "city": "Virginia Beach",
+      "url": "https://ltvb.com/shows/funny-girl/",
+      "free": false,
+      "from": "2026-11-20",
+      "to": "2026-12-13",
+      "source": "Little Theatre of VB"
+    },
+    {
+      "title": "Made in VA Biennial 2026",
+      "kind": "Art",
+      "place": "Virginia MOCA",
+      "city": "Virginia Beach",
+      "url": "https://virginiamoca.org/",
+      "from": "2026-09-11",
+      "to": "2027-03-21",
+      "source": "Running (hand-kept)"
+    },
+    {
+      "title": "Vivian Chiu: From Here",
+      "kind": "Art",
+      "place": "Virginia MOCA",
+      "city": "Virginia Beach",
+      "url": "https://virginiamoca.org/",
+      "from": "2026-09-11",
+      "to": "2027-03-21",
+      "source": "Running (hand-kept)"
+    }
+  ]
+}

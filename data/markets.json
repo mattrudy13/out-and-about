@@ -1,0 +1,46 @@
+{
+  "about": "Hand-kept: no market publishes a feed. Each rule: months (1-12), weekday (0 = Sunday, 6 = Saturday), optional weeks (which of that weekday in the month, e.g. [1, 3]), start/end (24h), optional from/to dates, and check: true when the dates aren't confirmed (the page then says to check before going). list: false keeps a market off the day-by-day list (it still shows in the Farmers markets box). Checked 2026-10-29.",
+  "markets": [
+    {
+      "name": "Old Beach Farmers Market",
+      "place": "19th St, Old Beach",
+      "city": "Virginia Beach",
+      "url": "https://marketspread.com/market/9028/old-beach-farmers-market",
+      "summary": "Saturdays 9 AM – noon, April–October; 1st & 3rd Saturdays the rest of the year",
+      "rules": [
+        { "months": [4, 5, 6, 7, 8, 9, 10], "weekday": 6, "start": "09:00", "end": "12:00" },
+        { "months": [1, 2, 3], "weekday": 6, "weeks": [1, 3], "start": "09:00", "end": "12:00" },
+        { "months": [11, 12], "weekday": 6, "weeks": [1, 3], "start": "09:00", "end": "12:00", "check": true }
+      ]
+    },
+    {
+      "name": "Shore Drive Farm Market",
+      "place": "Shore Drive",
+      "city": "Virginia Beach",
+      "url": "https://marketspread.com/market/12678/shore-drive-farm-market/",
+      "summary": "Saturdays 9 AM – noon",
+      "rules": [
+        { "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "weekday": 6, "start": "09:00", "end": "12:00", "check": true }
+      ]
+    },
+    {
+      "name": "East Beach Farmers Market",
+      "place": "Bay Oaks Park, 2413 E Ocean View Ave",
+      "city": "Norfolk",
+      "url": "https://www.visitnorfolk.com/event/east-beach-farmers-market-weekly",
+      "summary": "Saturdays 9 AM – noon, May 2 – Nov 21, 2026",
+      "rules": [
+        { "months": [5, 6, 7, 8, 9, 10, 11], "weekday": 6, "start": "09:00", "end": "12:00", "from": "2026-05-02", "to": "2026-11-21" }
+      ]
+    },
+    {
+      "name": "Virginia Beach Farmers Market",
+      "place": "3640 Dam Neck Rd (at Princess Anne Rd)",
+      "city": "Virginia Beach",
+      "url": "https://agriculture.virginiabeach.gov/farmers-market",
+      "summary": "Open daily, year-round",
+      "list": false,
+      "rules": []
+    }
+  ]
+}
