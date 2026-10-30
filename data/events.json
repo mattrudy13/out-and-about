@@ -1,11 +1,12 @@
 {
-  "updated": "2026-10-30T02:45:29.914Z",
+  "updated": "2026-10-30T02:53:20.006Z",
   "from": "2026-10-29",
   "to": "2026-11-25",
   "sources": {
     "The Z": {
-      "ok": true,
-      "events": 1
+      "ok": false,
+      "error": "HTTP 403",
+      "keptFromLastRun": 1
     },
     "Virginia MOCA": {
       "ok": true,
@@ -20,12 +21,13 @@
       "events": 5
     },
     "Little Theatre of VB": {
-      "ok": true,
-      "events": 1
+      "ok": false,
+      "error": "HTTP 403",
+      "keptFromLastRun": 1
     },
     "Ticketmaster": {
       "ok": false,
-      "error": "TICKETMASTER_KEY isn't set",
+      "error": "HTTP 401",
       "keptFromLastRun": 0
     },
     "Farmers markets": {
