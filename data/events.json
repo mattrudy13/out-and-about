@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T03:12:57.178Z",
+  "updated": "2026-10-30T03:16:21.937Z",
   "from": "2026-10-29",
   "to": "2026-11-25",
   "sources": {
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 1,
-      "checked": "2026-10-30T03:12:48.804Z"
+      "checked": "2026-10-30T03:16:15.855Z"
     },
     "Virginia Symphony": {
       "ok": true,
       "events": 4,
-      "checked": "2026-10-30T03:12:48.804Z"
+      "checked": "2026-10-30T03:16:15.855Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 5,
-      "checked": "2026-10-30T03:12:48.804Z"
+      "checked": "2026-10-30T03:16:15.855Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -33,17 +33,17 @@
     "Ticketmaster": {
       "ok": true,
       "events": 44,
-      "checked": "2026-10-30T03:12:48.804Z"
+      "checked": "2026-10-30T03:16:15.855Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 11,
-      "checked": "2026-10-30T03:12:48.804Z"
+      "checked": "2026-10-30T03:16:15.855Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-10-30T03:12:48.804Z"
+      "checked": "2026-10-30T03:16:15.855Z"
     }
   },
   "events": [
@@ -244,17 +244,6 @@
       "source": "Farmers markets"
     },
     {
-      "title": "Brains On! LIVE: Your Brain is Magic!",
-      "date": "2026-11-07",
-      "time": "17:00",
-      "kind": "Theater",
-      "place": "Attucks Theatre",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/brains-on-live-your-brain-is-norfolk-virginia-11-07-2026/event/010064F8962CE9BB",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
       "title": "The ABBA REUNION Tribute Show",
       "date": "2026-11-07",
       "time": "19:30",
@@ -322,7 +311,7 @@
       "source": "Ticketmaster"
     },
     {
-      "title": "The Bodyguard (Touring)",
+      "title": "The Bodyguard",
       "date": "2026-11-10",
       "time": "19:30",
       "kind": "Theater",
@@ -344,7 +333,7 @@
       "source": "Ticketmaster"
     },
     {
-      "title": "The Bodyguard (Touring)",
+      "title": "The Bodyguard",
       "date": "2026-11-11",
       "time": "19:30",
       "kind": "Theater",
@@ -367,7 +356,7 @@
       "source": "Norfolk Arts"
     },
     {
-      "title": "The Bodyguard (Touring)",
+      "title": "The Bodyguard",
       "date": "2026-11-12",
       "time": "19:30",
       "kind": "Theater",
@@ -378,7 +367,7 @@
       "source": "Ticketmaster"
     },
     {
-      "title": "The Bodyguard (Touring)",
+      "title": "The Bodyguard",
       "date": "2026-11-13",
       "time": "19:30",
       "kind": "Theater",
@@ -458,7 +447,7 @@
       "source": "Farmers markets"
     },
     {
-      "title": "The Bodyguard (Touring)",
+      "title": "The Bodyguard",
       "date": "2026-11-14",
       "time": "14:00",
       "kind": "Theater",
@@ -492,7 +481,7 @@
       "source": "Norfolk Arts"
     },
     {
-      "title": "The Bodyguard (Touring)",
+      "title": "The Bodyguard",
       "date": "2026-11-14",
       "time": "19:30",
       "kind": "Theater",
@@ -536,7 +525,7 @@
       "source": "Ticketmaster"
     },
     {
-      "title": "The Bodyguard (Touring)",
+      "title": "The Bodyguard",
       "date": "2026-11-15",
       "time": "13:00",
       "kind": "Theater",
@@ -570,7 +559,7 @@
       "source": "Ticketmaster"
     },
     {
-      "title": "The Bodyguard (Touring)",
+      "title": "The Bodyguard",
       "date": "2026-11-15",
       "time": "18:30",
       "kind": "Theater",
@@ -637,17 +626,6 @@
       "time": "19:30",
       "note": null,
       "source": "Virginia Symphony"
-    },
-    {
-      "title": "Musicians of the Virginia Symphony Orchestra",
-      "date": "2026-11-20",
-      "time": "19:30",
-      "kind": "Theater",
-      "place": "Harrison Opera House",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/musicians-of-the-virginia-symphony-orchestra-norfolk-virginia-11-20-2026/event/0100651B9996CCDC",
-      "note": null,
-      "source": "Ticketmaster"
     },
     {
       "title": "Pandora's Box: Tribute to Aerosmith",
