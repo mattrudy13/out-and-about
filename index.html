@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Out &amp; About</title>
+  <meta name="description" content="Concerts, theater, art and farmers markets in Virginia Beach and Norfolk for the next four weeks.">
+  <meta name="theme-color" content="#0E5E66">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap">
+      <p class="kicker">Virginia Beach &amp; Norfolk</p>
+      <h1>Out &amp; About</h1>
+      <p class="lede">Concerts, shows, art and markets for the next four weeks</p>
+    </div>
+  </header>
+
+  <div class="wrap page">
+    <nav class="chips" aria-label="Show only">
+      <button type="button" class="chip" data-kind="All" aria-pressed="true">All</button>
+      <button type="button" class="chip" data-kind="Music" aria-pressed="false">Music</button>
+      <button type="button" class="chip" data-kind="Theater" aria-pressed="false">Theater</button>
+      <button type="button" class="chip" data-kind="Art" aria-pressed="false">Art</button>
+      <button type="button" class="chip" data-kind="Market" aria-pressed="false">Markets</button>
+    </nav>
+
+    <div class="layout">
+      <main id="list" aria-live="polite">
+        <p class="status">Loading events…</p>
+      </main>
+      <aside class="side">
+        <section class="box" id="running-box" hidden>
+          <h2>Running for a while</h2>
+          <div id="running"></div>
+        </section>
+        <section class="box" id="markets-box" hidden>
+          <h2>Farmers markets</h2>
+          <div id="markets"></div>
+        </section>
+      </aside>
+    </div>
+
+    <footer class="foot">
+      <p id="updated"></p>
+      <p>Times and dates can change, so check the venue's page before you go. Listings come from Ticketmaster, The Z, Virginia MOCA, the Virginia Symphony, Norfolk Arts and Little Theatre of Virginia Beach.</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

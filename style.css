@@ -1,0 +1,134 @@
+/* Out & About. Large type and high contrast throughout: it's built for Rudy's mom, mostly on her phone. */
+:root {
+  --ink: #15233B;
+  --muted: #4A5568;
+  --ground: #F3F5F7;
+  --card: #FFFFFF;
+  --line: #DCE1E7;
+  --teal: #0E5E66;
+  --teal-dark: #0A464C;
+  --music-bg: #E3EDFA; --music: #1A4F93;
+  --theater-bg: #F4E4EF; --theater: #7A2160;
+  --art-bg: #FBE9DC; --art: #94420F;
+  --market-bg: #E2F1E4; --market: #24692F;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: "Atkinson Hyperlegible", system-ui, -apple-system, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  -webkit-text-size-adjust: 100%;
+}
+
+a { color: var(--teal); }
+a:hover { color: var(--teal-dark); }
+:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+
+.wrap { max-width: 1160px; margin: 0 auto; padding: 0 16px; }
+
+/* ---------- header ---------- */
+
+.masthead { background: var(--teal); color: #FFFFFF; }
+.masthead .wrap { padding-top: 28px; padding-bottom: 24px; }
+.kicker { margin: 0 0 6px; font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #CDE7E9; }
+.masthead h1 { margin: 0 0 6px; font-size: 34px; line-height: 1.1; }
+.lede { margin: 0; font-size: 17px; color: #E3F1F2; }
+
+/* ---------- filters ---------- */
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; padding: 18px 0 8px; }
+.chip {
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 22px;
+  border: 2px solid #C5CDD6;
+  background: var(--card);
+  color: var(--ink);
+  font: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: #FFFFFF; }
+
+/* ---------- list ---------- */
+
+.layout { display: flex; flex-direction: column; gap: 28px; padding: 14px 0 8px; }
+#list { display: flex; flex-direction: column; gap: 26px; min-width: 0; }
+
+.day { display: flex; flex-direction: column; gap: 12px; }
+.day-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; border-bottom: 2px solid var(--ink); padding-bottom: 6px; }
+.day-head h2 { margin: 0; font-size: 22px; }
+.day-sub { font-size: 16px; font-weight: 700; color: var(--teal); white-space: nowrap; }
+
+.card {
+  display: flex;
+  gap: 14px;
+  padding: 16px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  color: var(--ink);
+  text-decoration: none;
+}
+.card:hover { border-color: var(--teal); color: var(--ink); }
+.time { width: 72px; flex: none; font-size: 18px; font-weight: 700; line-height: 1.3; }
+.time.none { font-size: 16px; color: var(--muted); }
+.body { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.title { font-size: 20px; font-weight: 700; line-height: 1.25; overflow-wrap: anywhere; }
+.place { font-size: 17px; line-height: 1.35; color: var(--muted); }
+.meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.note { font-size: 16px; color: var(--muted); }
+
+.tag { display: inline-block; padding: 3px 10px; border-radius: 6px; font-size: 15px; font-weight: 700; }
+.k-Music { background: var(--music-bg); color: var(--music); }
+.k-Theater { background: var(--theater-bg); color: var(--theater); }
+.k-Art { background: var(--art-bg); color: var(--art); }
+.k-Market { background: var(--market-bg); color: var(--market); }
+
+.more {
+  min-height: 52px;
+  border-radius: 14px;
+  border: 2px solid var(--ink);
+  background: var(--card);
+  color: var(--ink);
+  font: inherit;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.status { margin: 0; padding: 24px 16px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; font-size: 19px; }
+
+/* ---------- side boxes ---------- */
+
+.side { display: flex; flex-direction: column; gap: 20px; }
+.box { display: flex; flex-direction: column; gap: 14px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+.box h2 { margin: 0; font-size: 22px; }
+#running, #markets { display: flex; flex-direction: column; gap: 16px; }
+.item { display: flex; flex-direction: column; gap: 4px; color: var(--ink); text-decoration: none; }
+.item strong { font-size: 19px; line-height: 1.25; }
+.item span { font-size: 17px; color: var(--muted); }
+a.item:hover strong { color: var(--teal); }
+
+.foot { padding: 24px 0 40px; font-size: 16px; color: var(--muted); }
+.foot p { margin: 0 0 10px; }
+
+/* ---------- desktop ---------- */
+
+@media (min-width: 900px) {
+  .wrap { padding: 0 32px; }
+  .masthead .wrap { padding-top: 36px; padding-bottom: 32px; }
+  .masthead h1 { font-size: 44px; }
+  .lede { font-size: 18px; }
+  .layout { flex-direction: row; align-items: flex-start; gap: 32px; }
+  #list { flex: 1; }
+  .side { width: 340px; flex: none; }
+  .card { align-items: center; gap: 20px; padding: 18px 20px; }
+  .time { width: 90px; font-size: 19px; }
+  .title { font-size: 21px; }
+}
