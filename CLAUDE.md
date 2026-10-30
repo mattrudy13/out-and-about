@@ -22,6 +22,8 @@ https://claude.ai/artifact/RYwzd87JHpqLjXN3HPG6Wj
 - `scripts/events.mjs`: writes `data/events.json` (`events`, `running`, and `sources` with each source's
   status). A failed source keeps its upcoming events from the last run.
 - `data/markets.json`, `data/running.json`: **hand-kept**, see their `about` lines.
+- `data/hide.json`: **hand-kept** title words to leave off the page, for listings the filters miss (first entry
+  2026-10-29: "Brains On!", a kids' podcast show Ticketmaster files under theater).
 - `.github/workflows/update.yml`: runs the script 4×/day (GitHub skips some scheduled runs), commits only when
   something besides `updated` changed, then fails the run (GitHub emails) if any source failed, or if the
   Mac-only sources haven't been refreshed for 14 days.
@@ -61,8 +63,9 @@ User-Agent, proxies): it's the sites' choice.
 | Markets / running | hand-kept JSON | Markets with `check: true` say "check the date before you go" |
 
 A feed event spanning several days (a play's run) becomes an event on its first day ("Runs through …") and a
-"Running for a while" item. The same show from Ticketmaster and a venue feed is merged (same day, one title
-contains the other); the venue's listing wins because venue feeds run first.
+"Running for a while" item. The same show from Ticketmaster and a venue feed is merged (same day, and either
+one title contains the other or it's the same venue at the same start time); the venue's listing wins because
+venue feeds run first.
 
 Checked 2026-10-29 and left out: visitvirginiabeach.com (Cloudflare bot check blocks scripts), Eventbrite (no
 public search API), Virginia Stage Company and Virginia Arts Festival (no feed), Chrysler Museum (feed exists
