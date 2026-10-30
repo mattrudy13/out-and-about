@@ -1,11 +1,16 @@
 // Concerts, theater, art and farmers markets in Virginia Beach and Norfolk for the next 4 weeks, for the
 // Out & About page. Writes data/events.json. Node 22, no packages.
 // Usage: TICKETMASTER_KEY=… node scripts/events.mjs   (without the key, Ticketmaster is skipped)
+//        node scripts/events.mjs --local              (only the Mac-only sources; see below)
 //
 // Sources: Ticketmaster (the big venues), the WordPress "Events Calendar" feeds of The Z, Virginia MOCA,
 // the Virginia Symphony and Norfolk Arts, Little Theatre of Virginia Beach's season page, and the
 // hand-kept data/markets.json and data/running.json. Each source is fetched on its own; if one fails, its
 // events from the last good run are kept so an outage doesn't empty the page.
+//
+// The Z and Little Theatre sit behind Cloudflare, which refuses GitHub's servers (HTTP 403) but not a home
+// connection. So on GitHub Actions they're skipped and their last listings kept, and Rudy's Mac refreshes
+// them weekly with --local (scripts/refresh-local.sh). Every source records `checked`, its last success.
 
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 
@@ -285,24 +290,43 @@ const SOURCES = {
   "Farmers markets": markets,
   "Running (hand-kept)": handRunning,
 };
+const MAC_ONLY = new Set(["The Z", "Little Theatre of VB"]);
+const LOCAL_MODE = process.argv.includes("--local");
+const ON_ACTIONS = process.env.GITHUB_ACTIONS === "true";
 
 let previous = null;
 try { previous = JSON.parse(readFileSync(OUT, "utf8")); } catch {}
 
-const events = [], running = [], status = {};
+// A source's last listings, still upcoming, carried into this run.
+const keep = (name) => ({
+  events: (previous?.events ?? []).filter((e) => e.source === name && e.date >= TODAY),
+  running: (previous?.running ?? []).filter((e) => e.source === name && e.to >= TODAY),
+});
+
+const events = [], running = [], status = {}, tried = new Set();
+const now = new Date().toISOString();
 for (const [name, fn] of Object.entries(SOURCES)) {
+  const last = previous?.sources?.[name]?.checked ?? null;
+  // --local refreshes only the Mac-only sources; Actions never tries them. Either way the rest is kept as is.
+  if ((LOCAL_MODE && !MAC_ONLY.has(name)) || (ON_ACTIONS && MAC_ONLY.has(name))) {
+    const old = keep(name);
+    events.push(...old.events);
+    running.push(...old.running);
+    status[name] = { ...(previous?.sources?.[name] ?? {}), ...(MAC_ONLY.has(name) ? { macOnly: true } : {}), checked: last };
+    continue;
+  }
+  tried.add(name);
   try {
     const r = await fn();
     for (const e of r.events ?? []) events.push({ ...e, source: name });
     for (const e of r.running ?? []) running.push({ ...e, source: name });
-    status[name] = { ok: true, events: r.events?.length ?? 0 };
+    status[name] = { ok: true, events: r.events?.length ?? 0, checked: now, ...(MAC_ONLY.has(name) ? { macOnly: true } : {}) };
   } catch (err) {
-    // Keep what this source had last time (still upcoming), so one outage doesn't blank its listings.
-    const old = (previous?.events ?? []).filter((e) => e.source === name && e.date >= TODAY);
-    const oldRunning = (previous?.running ?? []).filter((e) => e.source === name && e.to >= TODAY);
-    events.push(...old);
-    running.push(...oldRunning);
-    status[name] = { ok: false, error: err.message, keptFromLastRun: old.length };
+    // Keep what this source had last time, so one outage doesn't blank its listings.
+    const old = keep(name);
+    events.push(...old.events);
+    running.push(...old.running);
+    status[name] = { ok: false, error: err.message, keptFromLastRun: old.events.length, checked: last, ...(MAC_ONLY.has(name) ? { macOnly: true } : {}) };
   }
 }
 
@@ -316,6 +340,7 @@ const runs = running
 
 mkdirSync("data", { recursive: true });
 writeFileSync(OUT, JSON.stringify({ updated: new Date().toISOString(), from: TODAY, to: LAST, sources: status, events: merged, running: runs }, null, 2) + "\n");
-const bad = Object.entries(status).filter(([, s]) => !s.ok).map(([n, s]) => `${n} (${s.error})`);
+// Only sources tried in this run; a skipped one keeps its last status in the file.
+const bad = Object.entries(status).filter(([n, s]) => tried.has(n) && !s.ok).map(([n, s]) => `${n} (${s.error})`);
 console.log(`${merged.length} events, ${runs.length} running, ${TODAY} to ${LAST}; was ${previous?.events?.length ?? "none"}`);
 if (bad.length) console.log(`Failed: ${bad.join("; ")}`);

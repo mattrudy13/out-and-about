@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Runs scripts/refresh-local.sh Sundays at 10 AM. If the Mac is asleep then, launchd runs it on the next
+     wake. Install: copy to ~/Library/LaunchAgents/ and `launchctl bootstrap gui/$(id -u) <that path>`. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.mattrudy13.out-and-about</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>/Users/rudy/Desktop/coding/GitHub/out-and-about/scripts/refresh-local.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key>
+    <integer>0</integer>
+    <key>Hour</key>
+    <integer>10</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>/Users/rudy/Library/Logs/out-and-about-refresh.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/rudy/Library/Logs/out-and-about-refresh.log</string>
+</dict>
+</plist>
