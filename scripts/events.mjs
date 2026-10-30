@@ -62,10 +62,11 @@ const NOT_AN_EVENT = /\b(parking|lot pass|upgrade|vip package|vip experience|sou
 // Segment/genre → the page's kinds; null drops it. "Miscellaneous" under Arts is mostly themed parties.
 function tmKind(c) {
   if (!c || c.family) return null;
-  const seg = c.segment?.name, genre = c.genre?.name ?? "";
+  const seg = c.segment?.name, genre = c.genre?.name ?? "", sub = c.subGenre?.name ?? "";
   if (seg === "Music") return "Music";
   if (seg !== "Arts & Theatre") return null;
   if (/comedy|children|family|magic|circus|miscellaneous|undefined/i.test(genre)) return null;
+  if (/children|family|kids/i.test(sub)) return null;
   if (/classical/i.test(genre)) return "Music";
   if (/fine art/i.test(genre)) return "Art";
   return "Theater";
@@ -101,7 +102,8 @@ async function ticketmaster() {
     if (e.dates?.status?.code === "cancelled") continue;
     const s = e.dates.start;
     out.push({
-      title: e.name.trim(),
+      // "The Bodyguard (Touring)": Ticketmaster's label for a touring production, not part of the name.
+      title: e.name.replace(/\s*\(touring\)\s*$/i, "").trim(),
       date,
       time: s.timeTBA || s.noSpecificTime ? null : s.localTime?.slice(0, 5) ?? null,
       kind,
@@ -267,17 +269,33 @@ function handRunning() {
 // The same concert can come from Ticketmaster and the symphony's own feed: same day, and one title
 // contains the other once the presenter's name is dropped. The venue's own listing (listed first) wins.
 const norm = (s) => s.toLowerCase().replace(/\b(virginia symphony( orchestra)?|va opera|virginia opera|presents?)\b/g, "").replace(/[^a-z0-9]/g, "");
+// Titles can also differ completely ("Benefit Concert for The Muse Writers Center" vs Ticketmaster's
+// "Musicians of the Virginia Symphony Orchestra"), so the same venue at the same start time counts too.
+const normVenue = (s) => (s ?? "").toLowerCase().replace(/^the\s+/, "").replace(/[^a-z0-9]/g, "");
 function dedupe(events) {
   const kept = [];
   for (const e of events) {
-    const a = norm(e.title);
-    const dup = kept.find((k) => k.date === e.date && (!k.time || !e.time || k.time === e.time) && (() => {
+    const a = norm(e.title), v = normVenue(e.place);
+    const dup = kept.find((k) => {
+      if (k.date !== e.date) return false;
+      if (k.time && e.time && k.time === e.time && v.length >= 6 && normVenue(k.place) === v) return true;
+      if (k.time && e.time && k.time !== e.time) return false;
       const b = norm(k.title);
       return a.length >= 6 && b.length >= 6 && (a.includes(b) || b.includes(a));
-    })());
+    });
     if (!dup) kept.push(e);
   }
   return kept;
+}
+
+// data/hide.json: hand-kept title words for listings the filters miss (a kids' show filed as theater).
+function hidden() {
+  try {
+    const words = JSON.parse(readFileSync("data/hide.json", "utf8")).titles ?? [];
+    return (title) => words.some((w) => title.toLowerCase().includes(w.toLowerCase()));
+  } catch {
+    return () => false;
+  }
 }
 
 const SOURCES = {
@@ -330,7 +348,9 @@ for (const [name, fn] of Object.entries(SOURCES)) {
   }
 }
 
-const merged = dedupe(events.filter((e) => inWindow(e.date)))
+// Hidden titles are dropped here, not per source, so listings kept from an earlier run are caught too.
+const isHidden = hidden();
+const merged = dedupe(events.filter((e) => inWindow(e.date) && !isHidden(e.title)))
   .sort((a, b) => (a.date + (a.time ?? "99")).localeCompare(b.date + (b.time ?? "99")) || a.title.localeCompare(b.title));
 // "Running for a while": on now or starting within the window, soonest-ending first.
 const runs = running
