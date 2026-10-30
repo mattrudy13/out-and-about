@@ -1,14 +1,13 @@
 {
-  "updated": "2026-10-30T03:12:54.501Z",
+  "updated": "2026-10-30T03:12:57.178Z",
   "from": "2026-10-29",
   "to": "2026-11-25",
   "sources": {
     "The Z": {
-      "ok": false,
-      "error": "HTTP 403",
-      "keptFromLastRun": 1,
-      "macOnly": true,
-      "checked": null
+      "ok": true,
+      "events": 1,
+      "checked": "2026-10-30T03:12:56.354Z",
+      "macOnly": true
     },
     "Virginia MOCA": {
       "ok": true,
@@ -26,11 +25,10 @@
       "checked": "2026-10-30T03:12:48.804Z"
     },
     "Little Theatre of VB": {
-      "ok": false,
-      "error": "HTTP 403",
-      "keptFromLastRun": 1,
-      "macOnly": true,
-      "checked": null
+      "ok": true,
+      "events": 1,
+      "checked": "2026-10-30T03:12:56.354Z",
+      "macOnly": true
     },
     "Ticketmaster": {
       "ok": true,
