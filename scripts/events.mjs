@@ -348,10 +348,33 @@ for (const [name, fn] of Object.entries(SOURCES)) {
   }
 }
 
+// A show with 3+ performances on different days at one venue (a touring musical's week) would fill the
+// list with identical cards (Rudy's call): keep its first night, say how many shows, and add the run to
+// "Running for a while". Markets repeat by design and are left alone. Expects `list` sorted by date.
+function collapseRuns(list) {
+  const groups = new Map();
+  for (const e of list) {
+    if (e.kind === "Market") continue;
+    const key = `${norm(e.title)}|${normVenue(e.place)}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(e);
+  }
+  const drop = new Set();
+  for (const shows of groups.values()) {
+    if (shows.length < 3 || new Set(shows.map((e) => e.date)).size < 2) continue;
+    const [first, ...rest] = shows, last = shows.at(-1).date;
+    rest.forEach((e) => drop.add(e));
+    first.note = [first.note, `${shows.length} shows through ${shortDate(last)}`].filter(Boolean).join(" · ");
+    running.push({ title: first.title, kind: first.kind, place: first.place, city: first.city, url: first.url,
+      free: !!first.free, from: first.date, to: last, source: first.source });
+  }
+  return list.filter((e) => !drop.has(e));
+}
+
 // Hidden titles are dropped here, not per source, so listings kept from an earlier run are caught too.
 const isHidden = hidden();
-const merged = dedupe(events.filter((e) => inWindow(e.date) && !isHidden(e.title)))
-  .sort((a, b) => (a.date + (a.time ?? "99")).localeCompare(b.date + (b.time ?? "99")) || a.title.localeCompare(b.title));
+const merged = collapseRuns(dedupe(events.filter((e) => inWindow(e.date) && !isHidden(e.title)))
+  .sort((a, b) => (a.date + (a.time ?? "99")).localeCompare(b.date + (b.time ?? "99")) || a.title.localeCompare(b.title)));
 // "Running for a while": on now or starting within the window, soonest-ending first.
 const runs = running
   .filter((r) => r.to >= TODAY && r.from <= LAST)
