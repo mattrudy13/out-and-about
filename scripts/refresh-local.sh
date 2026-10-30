@@ -1,6 +1,8 @@
 #!/bin/zsh
 # Weekly on Rudy's Mac (launchd, scripts/com.mattrudy13.out-and-about.plist): refreshes The Z and Little
 # Theatre, whose Cloudflare blocks GitHub's servers, and pushes data/events.json if it changed.
+# launchd runs it from its own clone in ~/.local/share/out-and-about: macOS privacy protection stops
+# background jobs from reading ~/Desktop, where Rudy's working copy lives (exit 127, "can't open input file").
 # Run by hand: scripts/refresh-local.sh   (add --no-push to try it without committing)
 set -euo pipefail
 
@@ -14,7 +16,9 @@ if [[ "$(git branch --show-current)" != "main" && "${1:-}" != "--no-push" ]]; th
   echo "Not on main (on $(git branch --show-current)); skipped"
   exit 1
 fi
-# The data file changes on GitHub several times a day, so start from the latest.
+# The data file changes on GitHub several times a day, so start from the latest. A run that stopped
+# halfway (or a --no-push try) leaves the generated file modified, which would block the pull.
+git checkout -q -- data/events.json
 git pull --rebase -q origin main
 node scripts/events.mjs --local
 
