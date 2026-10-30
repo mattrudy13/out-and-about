@@ -1,0 +1,64 @@
+name: Update events
+
+on:
+  schedule:
+    # 6 AM, 10 AM, 2 PM and 6 PM Eastern in daylight time (an hour earlier in winter). Events are planned
+    # weeks ahead, so a few runs a day is plenty; GitHub skips some scheduled runs, hence four, not one.
+    - cron: "15 10,14,18,22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-events
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # Check out the branch tip, not the commit that triggered the run: a run that waited in the
+      # concurrency queue would otherwise build on stale data and conflict on push.
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref }}
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      # A failed source keeps its last listings inside the script, so this step only fails on a crash.
+      - name: Events
+        env:
+          TICKETMASTER_KEY: ${{ secrets.TICKETMASTER_KEY }}
+        run: node scripts/events.mjs
+      - name: Commit if changed
+        run: |
+          # `updated` changes on every run, so ignore it when deciding whether anything changed.
+          node -e '
+            const { execSync } = require("child_process");
+            const fs = require("fs");
+            const f = "data/events.json";
+            let old = "";
+            try { old = execSync(`git show HEAD:${f}`).toString(); } catch {}
+            const strip = (s) => s.replace(/"updated":\s*"[^"]*",?/g, "");
+            const real = strip(old) !== strip(fs.readFileSync(f, "utf8"));
+            fs.writeFileSync(process.env.GITHUB_ENV, `DATA_CHANGED=${real}\n`, { flag: "a" });
+          '
+      - name: Push
+        if: env.DATA_CHANGED == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/events.json
+          git commit -m "chore(data): refresh events $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase -q
+          git push
+      # Fail the run (GitHub emails) when a source failed, after pushing whatever did work.
+      - name: Report failed sources
+        run: |
+          node -e '
+            const s = JSON.parse(require("fs").readFileSync("data/events.json", "utf8")).sources;
+            const bad = Object.entries(s).filter(([, v]) => !v.ok);
+            if (bad.length) { console.log(bad.map(([n, v]) => `${n}: ${v.error}`).join("\n")); process.exit(1); }
+          '
