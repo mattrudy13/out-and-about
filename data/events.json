@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T03:16:21.937Z",
+  "updated": "2026-10-30T03:18:21.886Z",
   "from": "2026-10-29",
   "to": "2026-11-25",
   "sources": {
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 1,
-      "checked": "2026-10-30T03:16:15.855Z"
+      "checked": "2026-10-30T03:18:16.340Z"
     },
     "Virginia Symphony": {
       "ok": true,
       "events": 4,
-      "checked": "2026-10-30T03:16:15.855Z"
+      "checked": "2026-10-30T03:18:16.340Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 5,
-      "checked": "2026-10-30T03:16:15.855Z"
+      "checked": "2026-10-30T03:18:16.340Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -33,17 +33,17 @@
     "Ticketmaster": {
       "ok": true,
       "events": 44,
-      "checked": "2026-10-30T03:16:15.855Z"
+      "checked": "2026-10-30T03:18:16.340Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 11,
-      "checked": "2026-10-30T03:16:15.855Z"
+      "checked": "2026-10-30T03:18:16.340Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-10-30T03:16:15.855Z"
+      "checked": "2026-10-30T03:18:16.340Z"
     }
   },
   "events": [
@@ -318,7 +318,7 @@
       "place": "Harrison Opera House",
       "city": "Norfolk",
       "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-10-2026/event/01006479BDB3464B",
-      "note": null,
+      "note": "8 shows through Nov 15",
       "source": "Ticketmaster"
     },
     {
@@ -333,17 +333,6 @@
       "source": "Ticketmaster"
     },
     {
-      "title": "The Bodyguard",
-      "date": "2026-11-11",
-      "time": "19:30",
-      "kind": "Theater",
-      "place": "Harrison Opera House",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-11-2026/event/01006479BDB44662",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
       "title": "Offsite Gallery at TCC VADC opening reception: “Ink & Exposure” a group exhibition by Heather Mitcham, Victor Perrotti and Michal Mahgerefteh",
       "kind": "Art",
       "place": "Tidewater Community College Visual Art & Design Center",
@@ -354,28 +343,6 @@
       "time": "17:00",
       "note": null,
       "source": "Norfolk Arts"
-    },
-    {
-      "title": "The Bodyguard",
-      "date": "2026-11-12",
-      "time": "19:30",
-      "kind": "Theater",
-      "place": "Harrison Opera House",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-12-2026/event/01006479BDB6466A",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "The Bodyguard",
-      "date": "2026-11-13",
-      "time": "19:30",
-      "kind": "Theater",
-      "place": "Harrison Opera House",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-13-2026/event/01006479BDB7466E",
-      "note": null,
-      "source": "Ticketmaster"
     },
     {
       "title": "The Humanitarian",
@@ -447,17 +414,6 @@
       "source": "Farmers markets"
     },
     {
-      "title": "The Bodyguard",
-      "date": "2026-11-14",
-      "time": "14:00",
-      "kind": "Theater",
-      "place": "Harrison Opera House",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-14-2026/event/01006479BDB84681",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
       "title": "K·POP SUPERSTARS LIVE",
       "date": "2026-11-14",
       "time": "17:00",
@@ -479,17 +435,6 @@
       "time": "18:30",
       "note": "Free",
       "source": "Norfolk Arts"
-    },
-    {
-      "title": "The Bodyguard",
-      "date": "2026-11-14",
-      "time": "19:30",
-      "kind": "Theater",
-      "place": "Harrison Opera House",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-14-2026/event/01006479BDB9468A",
-      "note": null,
-      "source": "Ticketmaster"
     },
     {
       "title": "Virginia Arts Festival - Gabriela Allemana",
@@ -525,17 +470,6 @@
       "source": "Ticketmaster"
     },
     {
-      "title": "The Bodyguard",
-      "date": "2026-11-15",
-      "time": "13:00",
-      "kind": "Theater",
-      "place": "Harrison Opera House",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-15-2026/event/01006479BDBA4690",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
       "title": "Norfolk Arts grantee event! “Arts at the Attucks”",
       "kind": "Art",
       "place": "Attucks Theatre",
@@ -555,17 +489,6 @@
       "place": "Sandler Center For The Performing Arts",
       "city": "Virginia Beach",
       "url": "https://www.ticketmaster.com/symphonicity-the-long-road-music-in-virginia-beach-virginia-11-15-2026/event/0100652A97BED2C6",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "The Bodyguard",
-      "date": "2026-11-15",
-      "time": "18:30",
-      "kind": "Theater",
-      "place": "Harrison Opera House",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-15-2026/event/01006479BDBB4692",
       "note": null,
       "source": "Ticketmaster"
     },
@@ -797,6 +720,17 @@
       "from": "2026-11-04",
       "to": "2026-11-08",
       "source": "Virginia MOCA"
+    },
+    {
+      "title": "The Bodyguard",
+      "kind": "Theater",
+      "place": "Harrison Opera House",
+      "city": "Norfolk",
+      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-10-2026/event/01006479BDB3464B",
+      "free": false,
+      "from": "2026-11-10",
+      "to": "2026-11-15",
+      "source": "Ticketmaster"
     },
     {
       "title": "The Humanitarian",
