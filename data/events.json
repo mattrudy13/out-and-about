@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-30T22:16:44.994Z",
-  "from": "2026-10-30",
-  "to": "2026-11-26",
+  "updated": "2026-10-31T15:43:35.366Z",
+  "from": "2026-10-31",
+  "to": "2026-11-27",
   "sources": {
     "The Z": {
       "ok": true,
@@ -10,21 +10,19 @@
       "macOnly": true
     },
     "Virginia MOCA": {
-      "ok": false,
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "keptFromLastRun": 1,
-      "checked": "2026-10-30T16:41:40.490Z"
+      "ok": true,
+      "events": 1,
+      "checked": "2026-10-31T15:43:29.179Z"
     },
     "Virginia Symphony": {
-      "ok": false,
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "keptFromLastRun": 4,
-      "checked": "2026-10-30T16:41:40.490Z"
+      "ok": true,
+      "events": 4,
+      "checked": "2026-10-31T15:43:29.179Z"
     },
     "Norfolk Arts": {
       "ok": true,
-      "events": 5,
-      "checked": "2026-10-30T22:16:40.103Z"
+      "events": 4,
+      "checked": "2026-10-31T15:43:29.179Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -34,44 +32,21 @@
     },
     "Ticketmaster": {
       "ok": true,
-      "events": 44,
-      "checked": "2026-10-30T22:16:40.103Z"
+      "events": 45,
+      "checked": "2026-10-31T15:43:29.179Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 11,
-      "checked": "2026-10-30T22:16:40.103Z"
+      "checked": "2026-10-31T15:43:29.179Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-10-30T22:16:40.103Z"
+      "checked": "2026-10-31T15:43:29.179Z"
     }
   },
   "events": [
-    {
-      "title": "Jazz Got Loose Opening Reception",
-      "kind": "Art",
-      "place": "The Gallery at the Attucks Theatre",
-      "city": "Norfolk",
-      "url": "https://norfolkarts.net/event/jazz-got-loose-opening-reception-october-30-6-8pm-at-the-gallery-at-the-attucks/",
-      "free": false,
-      "date": "2026-10-30",
-      "time": "17:00",
-      "note": null,
-      "source": "Norfolk Arts"
-    },
-    {
-      "title": "Hawthorne Heights: 20th anniversary of If Only You Were Lonely",
-      "date": "2026-10-30",
-      "time": "19:00",
-      "kind": "Music",
-      "place": "Elevation 27",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/hawthorne-heights-20th-anniversary-of-if-virginia-beach-virginia-10-30-2026/event/0100646CD8AC8826",
-      "note": null,
-      "source": "Ticketmaster"
-    },
     {
       "title": "East Beach Farmers Market",
       "date": "2026-10-31",
@@ -707,6 +682,28 @@
       "place": "Sandler Center For The Performing Arts",
       "city": "Virginia Beach",
       "url": "https://www.ticketmaster.com/nutcracker-magical-christmas-ballet-virginia-beach-virginia-11-25-2026/event/0100648DA313CEA2",
+      "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "Lindsey Stirling",
+      "date": "2026-11-27",
+      "time": "19:00",
+      "kind": "Music",
+      "place": "Chartway Arena at Ted Constant Convocation Center",
+      "city": "Norfolk",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvovA",
+      "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "The Legendary Wailers ft. Junior Marvin",
+      "date": "2026-11-27",
+      "time": "20:00",
+      "kind": "Music",
+      "place": "Elevation 27",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/the-legendary-wailers-ft-junior-marvin-virginia-beach-virginia-11-27-2026/event/0100652429246494",
       "note": null,
       "source": "Ticketmaster"
     }
