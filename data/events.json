@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-01T01:08:03.182Z",
-  "from": "2026-10-31",
-  "to": "2026-11-27",
+  "updated": "2026-11-01T15:00:07.517Z",
+  "from": "2026-11-01",
+  "to": "2026-11-28",
   "sources": {
     "The Z": {
       "ok": true,
       "events": 1,
-      "checked": "2026-10-30T03:12:56.354Z",
+      "checked": "2026-11-01T15:00:06.463Z",
       "macOnly": true
     },
     "Virginia MOCA": {
@@ -29,7 +29,7 @@
     "Little Theatre of VB": {
       "ok": true,
       "events": 1,
-      "checked": "2026-10-30T03:12:56.354Z",
+      "checked": "2026-11-01T15:00:06.463Z",
       "macOnly": true
     },
     "Ticketmaster": {
@@ -49,53 +49,6 @@
     }
   },
   "events": [
-    {
-      "title": "East Beach Farmers Market",
-      "date": "2026-10-31",
-      "time": "09:00",
-      "kind": "Market",
-      "place": "Bay Oaks Park, 2413 E Ocean View Ave",
-      "city": "Norfolk",
-      "url": "https://www.visitnorfolk.com/event/east-beach-farmers-market-weekly",
-      "free": true,
-      "note": "Free",
-      "source": "Farmers markets"
-    },
-    {
-      "title": "Old Beach Farmers Market",
-      "date": "2026-10-31",
-      "time": "09:00",
-      "kind": "Market",
-      "place": "19th St, Old Beach",
-      "city": "Virginia Beach",
-      "url": "https://marketspread.com/market/9028/old-beach-farmers-market",
-      "free": true,
-      "note": "Free",
-      "source": "Farmers markets"
-    },
-    {
-      "title": "Shore Drive Farm Market",
-      "date": "2026-10-31",
-      "time": "09:00",
-      "kind": "Market",
-      "place": "Shore Drive",
-      "city": "Virginia Beach",
-      "url": "https://marketspread.com/market/12678/shore-drive-farm-market/",
-      "free": true,
-      "note": "Free · check the date before you go",
-      "source": "Farmers markets"
-    },
-    {
-      "title": "Babyface",
-      "date": "2026-10-31",
-      "time": "20:30",
-      "kind": "Music",
-      "place": "The Dome by Rutter Mills",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/babyface-virginia-beach-virginia-10-31-2026/event/01006523CBA8B8FF",
-      "note": null,
-      "source": "Ticketmaster"
-    },
     {
       "title": "Choir! Choir! Choir!: Landslide: An Epic Fleetwood Mac Singalong!",
       "date": "2026-11-01",
