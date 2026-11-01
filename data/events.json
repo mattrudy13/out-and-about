@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T21:30:25.342Z",
+  "updated": "2026-11-01T01:08:03.182Z",
   "from": "2026-10-31",
   "to": "2026-11-27",
   "sources": {
@@ -10,19 +10,21 @@
       "macOnly": true
     },
     "Virginia MOCA": {
-      "ok": true,
-      "events": 1,
+      "ok": false,
+      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
+      "keptFromLastRun": 1,
       "checked": "2026-10-31T21:30:18.567Z"
     },
     "Virginia Symphony": {
-      "ok": true,
-      "events": 4,
+      "ok": false,
+      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
+      "keptFromLastRun": 4,
       "checked": "2026-10-31T21:30:18.567Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 4,
-      "checked": "2026-10-31T21:30:18.567Z"
+      "checked": "2026-11-01T01:07:58.362Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -32,18 +34,18 @@
     },
     "Ticketmaster": {
       "ok": true,
-      "events": 45,
-      "checked": "2026-10-31T21:30:18.567Z"
+      "events": 44,
+      "checked": "2026-11-01T01:07:58.362Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 11,
-      "checked": "2026-10-31T21:30:18.567Z"
+      "checked": "2026-11-01T01:07:58.362Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-10-31T21:30:18.567Z"
+      "checked": "2026-11-01T01:07:58.362Z"
     }
   },
   "events": [
@@ -82,17 +84,6 @@
       "free": true,
       "note": "Free · check the date before you go",
       "source": "Farmers markets"
-    },
-    {
-      "title": "Movements w/ Balance & Composure",
-      "date": "2026-10-31",
-      "time": "19:30",
-      "kind": "Music",
-      "place": "The Norva",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70bA7",
-      "note": null,
-      "source": "Ticketmaster"
     },
     {
       "title": "Babyface",
