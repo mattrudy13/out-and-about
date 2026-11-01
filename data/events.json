@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T15:00:07.517Z",
+  "updated": "2026-11-01T16:48:01.614Z",
   "from": "2026-11-01",
   "to": "2026-11-28",
   "sources": {
@@ -10,21 +10,19 @@
       "macOnly": true
     },
     "Virginia MOCA": {
-      "ok": false,
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "keptFromLastRun": 1,
-      "checked": "2026-10-31T21:30:18.567Z"
+      "ok": true,
+      "events": 1,
+      "checked": "2026-11-01T16:47:56.884Z"
     },
     "Virginia Symphony": {
-      "ok": false,
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "keptFromLastRun": 4,
-      "checked": "2026-10-31T21:30:18.567Z"
+      "ok": true,
+      "events": 4,
+      "checked": "2026-11-01T16:47:56.884Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-01T01:07:58.362Z"
+      "checked": "2026-11-01T16:47:56.884Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -34,18 +32,18 @@
     },
     "Ticketmaster": {
       "ok": true,
-      "events": 44,
-      "checked": "2026-11-01T01:07:58.362Z"
+      "events": 45,
+      "checked": "2026-11-01T16:47:56.884Z"
     },
     "Farmers markets": {
       "ok": true,
-      "events": 11,
-      "checked": "2026-11-01T01:07:58.362Z"
+      "events": 9,
+      "checked": "2026-11-01T16:47:56.884Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-01T01:07:58.362Z"
+      "checked": "2026-11-01T16:47:56.884Z"
     }
   },
   "events": [
@@ -648,6 +646,40 @@
       "place": "Elevation 27",
       "city": "Virginia Beach",
       "url": "https://www.ticketmaster.com/the-legendary-wailers-ft-junior-marvin-virginia-beach-virginia-11-27-2026/event/0100652429246494",
+      "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "Shore Drive Farm Market",
+      "date": "2026-11-28",
+      "time": "09:00",
+      "kind": "Market",
+      "place": "Shore Drive",
+      "city": "Virginia Beach",
+      "url": "https://marketspread.com/market/12678/shore-drive-farm-market/",
+      "free": true,
+      "note": "Free · check the date before you go",
+      "source": "Farmers markets"
+    },
+    {
+      "title": "Wilder Horses: A Tribute To The Rolling Stones",
+      "date": "2026-11-28",
+      "time": "20:00",
+      "kind": "Music",
+      "place": "Elevation 27",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/wilder-horses-a-tribute-to-the-virginia-beach-virginia-11-28-2026/event/01006528D61CCD9F",
+      "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "Emo Nite",
+      "date": "2026-11-28",
+      "time": "21:00",
+      "kind": "Music",
+      "place": "The Norva",
+      "city": "Norfolk",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe3pZ",
       "note": null,
       "source": "Ticketmaster"
     }
