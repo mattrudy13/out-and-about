@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-02T01:29:38.915Z",
-  "from": "2026-11-01",
-  "to": "2026-11-28",
+  "updated": "2026-11-02T20:20:50.791Z",
+  "from": "2026-11-02",
+  "to": "2026-11-29",
   "sources": {
     "The Z": {
       "ok": true,
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 1,
-      "checked": "2026-11-02T01:29:32.812Z"
+      "checked": "2026-11-02T20:20:44.728Z"
     },
     "Virginia Symphony": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-02T01:29:32.812Z"
+      "checked": "2026-11-02T20:20:44.728Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-02T01:29:32.812Z"
+      "checked": "2026-11-02T20:20:44.728Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -33,31 +33,20 @@
     "Ticketmaster": {
       "ok": true,
       "events": 45,
-      "checked": "2026-11-02T01:29:32.812Z"
+      "checked": "2026-11-02T20:20:44.728Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 9,
-      "checked": "2026-11-02T01:29:32.812Z"
+      "checked": "2026-11-02T20:20:44.728Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-02T01:29:32.812Z"
+      "checked": "2026-11-02T20:20:44.728Z"
     }
   },
   "events": [
-    {
-      "title": "Choir! Choir! Choir!: Landslide: An Epic Fleetwood Mac Singalong!",
-      "date": "2026-11-01",
-      "time": "19:30",
-      "kind": "Music",
-      "place": "Attucks Theatre",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/choir-choir-choir-landslide-an-epic-norfolk-virginia-11-01-2026/event/01006469E5205786",
-      "note": null,
-      "source": "Ticketmaster"
-    },
     {
       "title": "Holywatr: Deo Gratias Tour",
       "date": "2026-11-03",
@@ -680,6 +669,17 @@
       "place": "The Norva",
       "city": "Norfolk",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe3pZ",
+      "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "THE STRAY CATS",
+      "date": "2026-11-29",
+      "time": "20:00",
+      "kind": "Music",
+      "place": "The Dome by Rutter Mills",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/the-stray-cats-virginia-beach-virginia-11-29-2026/event/010064E9AD3B0E6A",
       "note": null,
       "source": "Ticketmaster"
     }
