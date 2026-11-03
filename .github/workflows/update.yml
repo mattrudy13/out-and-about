@@ -54,17 +54,24 @@ jobs:
           git commit -m "chore(data): refresh events $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase -q
           git push
-      # Fail the run (GitHub emails) when a source failed, after pushing whatever did work. The Mac-only
-      # sources (The Z, Little Theatre) aren't fetched here, so they only count once Rudy's Mac hasn't
-      # refreshed them for 14 days: that means the weekly job has stopped.
+      # Fail the run (GitHub emails) when a source has been down for 48 h, after pushing whatever did work.
+      # Virginia MOCA and Virginia Symphony fail about 1 run in 4 (an HTML page instead of JSON), and the
+      # next run has always worked; a failed source keeps its listings, so a short outage changes nothing
+      # on the page. `checked` is a source's last success. Rudy's choice (2026-11-02): alert at 48 h.
+      # The Mac-only sources (The Z, Little Theatre) aren't fetched here, so they only count once Rudy's
+      # Mac hasn't refreshed them for 14 days: that means the weekly job has stopped.
       - name: Report failed sources
         run: |
           node -e '
             const s = JSON.parse(require("fs").readFileSync("data/events.json", "utf8")).sources;
-            const stale = (v) => v.checked && Date.now() - new Date(v.checked) > 14 * 86400000;
-            const bad = Object.entries(s).filter(([, v]) => (v.macOnly ? stale(v) : !v.ok));
+            const DAY = 86400000;
+            const since = (v) => (v.checked ? Date.now() - new Date(v.checked) : Infinity);
+            const down = (v) => !v.ok && since(v) > 2 * DAY;
+            const bad = Object.entries(s).filter(([, v]) => (v.macOnly ? since(v) > 14 * DAY : down(v)));
+            const blips = Object.entries(s).filter(([, v]) => !v.macOnly && !v.ok && !down(v));
+            if (blips.length) console.log(`Failed this run, under 48 h: ${blips.map(([n, v]) => `${n} (${v.error})`).join("; ")}`);
             if (bad.length) {
-              console.log(bad.map(([n, v]) => v.macOnly ? `${n}: not refreshed from the Mac since ${v.checked}` : `${n}: ${v.error}`).join("\n"));
+              console.log(bad.map(([n, v]) => v.macOnly ? `${n}: not refreshed from the Mac since ${v.checked}` : `${n}: down since ${v.checked ?? "it was added"}: ${v.error}`).join("\n"));
               process.exit(1);
             }
           '

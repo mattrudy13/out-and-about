@@ -37,8 +37,10 @@ picked): https://claude.ai/artifact/RYwzd87JHpqLjXN3HPG6Wj. Ideas for later: `EN
   `hide.json` is title words to leave off the page, for listings the filters miss (first entry: "Brains On!", a
   kids' podcast show Ticketmaster files under theater).
 - `.github/workflows/update.yml`: runs the script 4×/day (GitHub skips some scheduled runs), commits only when
-  something besides `updated` changed, then fails the run (GitHub emails) if a source failed, or if the Mac-only
-  sources haven't been refreshed for 14 days.
+  something besides `updated` changed, then fails the run (GitHub emails) if a source has been down for 48 h
+  (`checked` older than 2 days; Rudy's choice 2026-11-02, after MOCA and Symphony failed ~1 run in 4 and always
+  recovered on the next one; a shorter failure is only logged), or if the Mac-only sources haven't been refreshed
+  for 14 days.
 - `scripts/refresh-local.sh` + `scripts/com.mattrudy13.out-and-about.plist`: the weekly Mac job (below).
 
 ## Sources
