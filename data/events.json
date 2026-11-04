@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-03T23:19:05.246Z",
-  "from": "2026-11-03",
-  "to": "2026-11-30",
+  "updated": "2026-11-04T17:58:47.884Z",
+  "from": "2026-11-04",
+  "to": "2026-12-01",
   "sources": {
     "The Z": {
       "ok": true,
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 1,
-      "checked": "2026-11-03T23:18:58.725Z"
+      "checked": "2026-11-04T17:58:41.218Z"
     },
     "Virginia Symphony": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-03T23:18:58.725Z"
+      "checked": "2026-11-04T17:58:41.218Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-03T23:18:58.725Z"
+      "checked": "2026-11-04T17:58:41.218Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -32,32 +32,21 @@
     },
     "Ticketmaster": {
       "ok": true,
-      "events": 45,
-      "checked": "2026-11-03T23:18:58.725Z"
+      "events": 44,
+      "checked": "2026-11-04T17:58:41.218Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 9,
-      "checked": "2026-11-03T23:18:58.725Z"
+      "checked": "2026-11-04T17:58:41.218Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-03T23:18:58.725Z"
+      "checked": "2026-11-04T17:58:41.218Z"
     }
   },
   "events": [
-    {
-      "title": "Holywatr: Deo Gratias Tour",
-      "date": "2026-11-03",
-      "time": "20:00",
-      "kind": "Music",
-      "place": "Elevation 27",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/holywatr-deo-gratias-tour-virginia-beach-virginia-11-03-2026/event/010064BE4F208AF0",
-      "note": null,
-      "source": "Ticketmaster"
-    },
     {
       "title": "Artist in Residence: Andy Harris",
       "kind": "Art",
