@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-04T23:38:35.695Z",
-  "from": "2026-11-04",
-  "to": "2026-12-01",
+  "updated": "2026-11-05T17:59:54.442Z",
+  "from": "2026-11-05",
+  "to": "2026-12-02",
   "sources": {
     "The Z": {
       "ok": true,
@@ -11,18 +11,18 @@
     },
     "Virginia MOCA": {
       "ok": true,
-      "events": 1,
-      "checked": "2026-11-04T23:38:29.287Z"
+      "events": 0,
+      "checked": "2026-11-05T17:59:47.796Z"
     },
     "Virginia Symphony": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-04T23:38:29.287Z"
+      "checked": "2026-11-05T17:59:47.796Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-04T23:38:29.287Z"
+      "checked": "2026-11-05T17:59:47.796Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -32,33 +32,21 @@
     },
     "Ticketmaster": {
       "ok": true,
-      "events": 44,
-      "checked": "2026-11-04T23:38:29.287Z"
+      "events": 45,
+      "checked": "2026-11-05T17:59:47.796Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 9,
-      "checked": "2026-11-04T23:38:29.287Z"
+      "checked": "2026-11-05T17:59:47.796Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-04T23:38:29.287Z"
+      "checked": "2026-11-05T17:59:47.796Z"
     }
   },
   "events": [
-    {
-      "title": "Artist in Residence: Andy Harris",
-      "kind": "Art",
-      "place": "Virginia MOCA",
-      "city": "Virginia Beach",
-      "url": "https://virginiamoca.org/event/artist-in-residence-andy-harris/",
-      "free": false,
-      "date": "2026-11-04",
-      "time": "10:00",
-      "note": "Runs through Nov 8",
-      "source": "Virginia MOCA"
-    },
     {
       "title": "Little Big Town - For The Art Of It Tour",
       "date": "2026-11-05",
@@ -671,20 +659,20 @@
       "url": "https://www.ticketmaster.com/the-stray-cats-virginia-beach-virginia-11-29-2026/event/010064E9AD3B0E6A",
       "note": null,
       "source": "Ticketmaster"
+    },
+    {
+      "title": "Crazy Chester: Tribute To The Band & The Last Waltz 50th Anniversary",
+      "date": "2026-12-02",
+      "time": "19:30",
+      "kind": "Music",
+      "place": "Elevation 27",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/crazy-chester-tribute-to-the-band-virginia-beach-virginia-12-02-2026/event/0100654D16EF4848",
+      "note": null,
+      "source": "Ticketmaster"
     }
   ],
   "running": [
-    {
-      "title": "Artist in Residence: Andy Harris",
-      "kind": "Art",
-      "place": "Virginia MOCA",
-      "city": "Virginia Beach",
-      "url": "https://virginiamoca.org/event/artist-in-residence-andy-harris/",
-      "free": false,
-      "from": "2026-11-04",
-      "to": "2026-11-08",
-      "source": "Virginia MOCA"
-    },
     {
       "title": "The Bodyguard",
       "kind": "Theater",
