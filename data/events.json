@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-06T23:06:01.056Z",
-  "from": "2026-11-06",
-  "to": "2026-12-03",
+  "updated": "2026-11-07T16:24:42.267Z",
+  "from": "2026-11-07",
+  "to": "2026-12-04",
   "sources": {
     "The Z": {
       "ok": true,
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-06T23:05:54.632Z"
+      "checked": "2026-11-07T16:24:35.989Z"
     },
     "Virginia Symphony": {
       "ok": true,
-      "events": 5,
-      "checked": "2026-11-06T23:05:54.632Z"
+      "events": 4,
+      "checked": "2026-11-07T16:24:35.989Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-06T23:05:54.632Z"
+      "checked": "2026-11-07T16:24:35.989Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -32,44 +32,21 @@
     },
     "Ticketmaster": {
       "ok": true,
-      "events": 44,
-      "checked": "2026-11-06T23:05:54.632Z"
+      "events": 47,
+      "checked": "2026-11-07T16:24:35.989Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 9,
-      "checked": "2026-11-06T23:05:54.632Z"
+      "checked": "2026-11-07T16:24:35.989Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-06T23:05:54.632Z"
+      "checked": "2026-11-07T16:24:35.989Z"
     }
   },
   "events": [
-    {
-      "title": "Corrosion of Conformity & The Sword",
-      "date": "2026-11-06",
-      "time": "19:30",
-      "kind": "Music",
-      "place": "Elevation 27",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/corrosion-of-conformity-the-sword-virginia-beach-virginia-11-06-2026/event/01006513A072E5B5",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "VA Opera: Pagliacci",
-      "kind": "Theater",
-      "place": "Harrison Opera House",
-      "city": "Norfolk",
-      "url": "https://virginiasymphony.org/event/va-opera-pagliacci/",
-      "free": false,
-      "date": "2026-11-06",
-      "time": "19:30",
-      "note": null,
-      "source": "Virginia Symphony"
-    },
     {
       "title": "East Beach Farmers Market",
       "date": "2026-11-07",
@@ -660,6 +637,39 @@
       "time": "19:30",
       "note": null,
       "source": "Virginia Symphony"
+    },
+    {
+      "title": "The Nutcracker",
+      "date": "2026-12-04",
+      "time": "19:00",
+      "kind": "Theater",
+      "place": "Harrison Opera House",
+      "city": "Norfolk",
+      "url": "https://www.ticketmaster.com/the-nutcracker-norfolk-virginia-12-04-2026/event/01006498E941855B",
+      "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "Tab Benoit with Bonerama: Blues and Brass Winter Tour",
+      "date": "2026-12-04",
+      "time": "20:00",
+      "kind": "Music",
+      "place": "Elevation 27",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/tab-benoit-with-bonerama-blues-and-virginia-beach-virginia-12-04-2026/event/01006509CB761908",
+      "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "Virginia Musical Theatre-Million Dollar Quartet Christmas",
+      "date": "2026-12-04",
+      "time": "20:00",
+      "kind": "Theater",
+      "place": "Sandler Center For The Performing Arts",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/virginia-musical-theatremillion-dollar-quartet-christmas-virginia-beach-virginia-12-04-2026/event/010064D6B51EE358",
+      "note": null,
+      "source": "Ticketmaster"
     }
   ],
   "running": [
