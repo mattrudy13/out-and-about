@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-08T01:25:54.863Z",
-  "from": "2026-11-07",
-  "to": "2026-12-04",
+  "updated": "2026-11-08T15:00:07.234Z",
+  "from": "2026-11-08",
+  "to": "2026-12-05",
   "sources": {
     "The Z": {
       "ok": true,
-      "events": 1,
-      "checked": "2026-11-01T15:00:06.463Z",
+      "events": 2,
+      "checked": "2026-11-08T15:00:05.859Z",
       "macOnly": true
     },
     "Virginia MOCA": {
@@ -27,7 +27,7 @@
     "Little Theatre of VB": {
       "ok": true,
       "events": 1,
-      "checked": "2026-11-01T15:00:06.463Z",
+      "checked": "2026-11-08T15:00:05.859Z",
       "macOnly": true
     },
     "Ticketmaster": {
@@ -47,64 +47,6 @@
     }
   },
   "events": [
-    {
-      "title": "East Beach Farmers Market",
-      "date": "2026-11-07",
-      "time": "09:00",
-      "kind": "Market",
-      "place": "Bay Oaks Park, 2413 E Ocean View Ave",
-      "city": "Norfolk",
-      "url": "https://www.visitnorfolk.com/event/east-beach-farmers-market-weekly",
-      "free": true,
-      "note": "Free",
-      "source": "Farmers markets"
-    },
-    {
-      "title": "Old Beach Farmers Market",
-      "date": "2026-11-07",
-      "time": "09:00",
-      "kind": "Market",
-      "place": "19th St, Old Beach",
-      "city": "Virginia Beach",
-      "url": "https://marketspread.com/market/9028/old-beach-farmers-market",
-      "free": true,
-      "note": "Free · check the date before you go",
-      "source": "Farmers markets"
-    },
-    {
-      "title": "Shore Drive Farm Market",
-      "date": "2026-11-07",
-      "time": "09:00",
-      "kind": "Market",
-      "place": "Shore Drive",
-      "city": "Virginia Beach",
-      "url": "https://marketspread.com/market/12678/shore-drive-farm-market/",
-      "free": true,
-      "note": "Free · check the date before you go",
-      "source": "Farmers markets"
-    },
-    {
-      "title": "The ABBA REUNION Tribute Show",
-      "date": "2026-11-07",
-      "time": "19:30",
-      "kind": "Music",
-      "place": "Sandler Center For The Performing Arts",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/the-abba-reunion-tribute-show-virginia-beach-virginia-11-07-2026/event/010064FBB9BE62EB",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "CHIEF KEEF",
-      "date": "2026-11-07",
-      "time": "20:00",
-      "kind": "Music",
-      "place": "The Dome by Rutter Mills",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/chief-keef-virginia-beach-virginia-11-07-2026/event/010064E1A1F6B5AB",
-      "note": "Rescheduled",
-      "source": "Ticketmaster"
-    },
     {
       "title": "VA Opera: Pagliacci",
       "kind": "Theater",
@@ -659,6 +601,18 @@
       "url": "https://www.ticketmaster.com/virginia-musical-theatremillion-dollar-quartet-christmas-virginia-beach-virginia-12-04-2026/event/010064D6B51EE358",
       "note": null,
       "source": "Ticketmaster"
+    },
+    {
+      "title": "Tidewater Winds: Santa Swings",
+      "kind": "Music",
+      "place": "The Z (Zeiders American Dream Theater)",
+      "city": "Virginia Beach",
+      "url": "https://thez.org/event/tidewater-winds-santa-swings/",
+      "free": false,
+      "date": "2026-12-05",
+      "time": "19:00",
+      "note": null,
+      "source": "The Z"
     }
   ],
   "running": [
