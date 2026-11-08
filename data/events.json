@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T21:47:05.172Z",
+  "updated": "2026-11-08T01:25:54.863Z",
   "from": "2026-11-07",
   "to": "2026-12-04",
   "sources": {
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-07T21:46:59.707Z"
+      "checked": "2026-11-08T01:25:47.439Z"
     },
     "Virginia Symphony": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-07T21:46:59.707Z"
+      "checked": "2026-11-08T01:25:47.439Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-07T21:46:59.707Z"
+      "checked": "2026-11-08T01:25:47.439Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -32,18 +32,18 @@
     },
     "Ticketmaster": {
       "ok": true,
-      "events": 47,
-      "checked": "2026-11-07T21:46:59.707Z"
+      "events": 46,
+      "checked": "2026-11-08T01:25:47.439Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 9,
-      "checked": "2026-11-07T21:46:59.707Z"
+      "checked": "2026-11-08T01:25:47.439Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-07T21:46:59.707Z"
+      "checked": "2026-11-08T01:25:47.439Z"
     }
   },
   "events": [
@@ -103,17 +103,6 @@
       "city": "Virginia Beach",
       "url": "https://www.ticketmaster.com/chief-keef-virginia-beach-virginia-11-07-2026/event/010064E1A1F6B5AB",
       "note": "Rescheduled",
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "Clutch w/ Slomosa",
-      "date": "2026-11-07",
-      "time": "20:00",
-      "kind": "Music",
-      "place": "The Norva",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A703Cf",
-      "note": null,
       "source": "Ticketmaster"
     },
     {
