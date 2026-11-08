@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T16:39:11.537Z",
+  "updated": "2026-11-08T22:00:14.667Z",
   "from": "2026-11-08",
   "to": "2026-12-05",
   "sources": {
@@ -10,21 +10,19 @@
       "macOnly": true
     },
     "Virginia MOCA": {
-      "ok": false,
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "keptFromLastRun": 0,
-      "checked": "2026-11-08T01:25:47.439Z"
+      "ok": true,
+      "events": 0,
+      "checked": "2026-11-08T22:00:08.032Z"
     },
     "Virginia Symphony": {
-      "ok": false,
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "keptFromLastRun": 4,
-      "checked": "2026-11-08T01:25:47.439Z"
+      "ok": true,
+      "events": 4,
+      "checked": "2026-11-08T22:00:08.032Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-08T16:39:07.261Z"
+      "checked": "2026-11-08T22:00:08.032Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -35,17 +33,17 @@
     "Ticketmaster": {
       "ok": true,
       "events": 48,
-      "checked": "2026-11-08T16:39:07.261Z"
+      "checked": "2026-11-08T22:00:08.032Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 8,
-      "checked": "2026-11-08T16:39:07.261Z"
+      "checked": "2026-11-08T22:00:08.032Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-08T16:39:07.261Z"
+      "checked": "2026-11-08T22:00:08.032Z"
     }
   },
   "events": [
