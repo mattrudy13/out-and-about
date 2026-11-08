@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T15:00:07.234Z",
+  "updated": "2026-11-08T16:39:11.537Z",
   "from": "2026-11-08",
   "to": "2026-12-05",
   "sources": {
@@ -10,19 +10,21 @@
       "macOnly": true
     },
     "Virginia MOCA": {
-      "ok": true,
-      "events": 0,
+      "ok": false,
+      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
+      "keptFromLastRun": 0,
       "checked": "2026-11-08T01:25:47.439Z"
     },
     "Virginia Symphony": {
-      "ok": true,
-      "events": 4,
+      "ok": false,
+      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
+      "keptFromLastRun": 4,
       "checked": "2026-11-08T01:25:47.439Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-08T01:25:47.439Z"
+      "checked": "2026-11-08T16:39:07.261Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -32,18 +34,18 @@
     },
     "Ticketmaster": {
       "ok": true,
-      "events": 46,
-      "checked": "2026-11-08T01:25:47.439Z"
+      "events": 48,
+      "checked": "2026-11-08T16:39:07.261Z"
     },
     "Farmers markets": {
       "ok": true,
-      "events": 9,
-      "checked": "2026-11-08T01:25:47.439Z"
+      "events": 8,
+      "checked": "2026-11-08T16:39:07.261Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-08T01:25:47.439Z"
+      "checked": "2026-11-08T16:39:07.261Z"
     }
   },
   "events": [
@@ -599,6 +601,52 @@
       "place": "Sandler Center For The Performing Arts",
       "city": "Virginia Beach",
       "url": "https://www.ticketmaster.com/virginia-musical-theatremillion-dollar-quartet-christmas-virginia-beach-virginia-12-04-2026/event/010064D6B51EE358",
+      "note": "3 shows through Dec 5",
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "Old Beach Farmers Market",
+      "date": "2026-12-05",
+      "time": "09:00",
+      "kind": "Market",
+      "place": "19th St, Old Beach",
+      "city": "Virginia Beach",
+      "url": "https://marketspread.com/market/9028/old-beach-farmers-market",
+      "free": true,
+      "note": "Free · check the date before you go",
+      "source": "Farmers markets"
+    },
+    {
+      "title": "Shore Drive Farm Market",
+      "date": "2026-12-05",
+      "time": "09:00",
+      "kind": "Market",
+      "place": "Shore Drive",
+      "city": "Virginia Beach",
+      "url": "https://marketspread.com/market/12678/shore-drive-farm-market/",
+      "free": true,
+      "note": "Free · check the date before you go",
+      "source": "Farmers markets"
+    },
+    {
+      "title": "Sabaton: Legends on Tour",
+      "date": "2026-12-05",
+      "time": "19:00",
+      "kind": "Music",
+      "place": "The Dome by Rutter Mills",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-virginia-beach-virginia-12-05-2026/event/0100632AE88F87C2",
+      "note": "Rescheduled",
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "The Nutcracker",
+      "date": "2026-12-05",
+      "time": "19:00",
+      "kind": "Theater",
+      "place": "Harrison Opera House",
+      "city": "Norfolk",
+      "url": "https://www.ticketmaster.com/the-nutcracker-norfolk-virginia-12-05-2026/event/01006498E9448567",
       "note": null,
       "source": "Ticketmaster"
     },
@@ -637,6 +685,17 @@
       "from": "2026-11-13",
       "to": "2026-11-21",
       "source": "The Z"
+    },
+    {
+      "title": "Virginia Musical Theatre-Million Dollar Quartet Christmas",
+      "kind": "Theater",
+      "place": "Sandler Center For The Performing Arts",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/virginia-musical-theatremillion-dollar-quartet-christmas-virginia-beach-virginia-12-04-2026/event/010064D6B51EE358",
+      "free": false,
+      "from": "2026-12-04",
+      "to": "2026-12-05",
+      "source": "Ticketmaster"
     },
     {
       "title": "Funny Girl",
