@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-09T01:43:08.899Z",
-  "from": "2026-11-08",
-  "to": "2026-12-05",
+  "updated": "2026-11-09T20:42:07.432Z",
+  "from": "2026-11-09",
+  "to": "2026-12-06",
   "sources": {
     "The Z": {
       "ok": true,
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-09T01:43:02.920Z"
+      "checked": "2026-11-09T20:42:01.595Z"
     },
     "Virginia Symphony": {
       "ok": true,
-      "events": 4,
-      "checked": "2026-11-09T01:43:02.920Z"
+      "events": 3,
+      "checked": "2026-11-09T20:42:01.595Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-09T01:43:02.920Z"
+      "checked": "2026-11-09T20:42:01.595Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -33,32 +33,20 @@
     "Ticketmaster": {
       "ok": true,
       "events": 48,
-      "checked": "2026-11-09T01:43:02.920Z"
+      "checked": "2026-11-09T20:42:01.595Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 8,
-      "checked": "2026-11-09T01:43:02.920Z"
+      "checked": "2026-11-09T20:42:01.595Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-09T01:43:02.920Z"
+      "checked": "2026-11-09T20:42:01.595Z"
     }
   },
   "events": [
-    {
-      "title": "VA Opera: Pagliacci",
-      "kind": "Theater",
-      "place": "Harrison Opera House",
-      "city": "Norfolk",
-      "url": "https://virginiasymphony.org/event/va-opera-pagliacci-2/",
-      "free": false,
-      "date": "2026-11-08",
-      "time": "14:30",
-      "note": null,
-      "source": "Virginia Symphony"
-    },
     {
       "title": "Free Throw + Microwave",
       "date": "2026-11-10",
@@ -577,7 +565,7 @@
       "place": "Harrison Opera House",
       "city": "Norfolk",
       "url": "https://www.ticketmaster.com/the-nutcracker-norfolk-virginia-12-04-2026/event/01006498E941855B",
-      "note": null,
+      "note": "3 shows through Dec 6",
       "source": "Ticketmaster"
     },
     {
@@ -599,7 +587,7 @@
       "place": "Sandler Center For The Performing Arts",
       "city": "Virginia Beach",
       "url": "https://www.ticketmaster.com/virginia-musical-theatremillion-dollar-quartet-christmas-virginia-beach-virginia-12-04-2026/event/010064D6B51EE358",
-      "note": "3 shows through Dec 5",
+      "note": "4 shows through Dec 6",
       "source": "Ticketmaster"
     },
     {
@@ -635,17 +623,6 @@
       "city": "Virginia Beach",
       "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-virginia-beach-virginia-12-05-2026/event/0100632AE88F87C2",
       "note": "Rescheduled",
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "The Nutcracker",
-      "date": "2026-12-05",
-      "time": "19:00",
-      "kind": "Theater",
-      "place": "Harrison Opera House",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/the-nutcracker-norfolk-virginia-12-05-2026/event/01006498E9448567",
-      "note": null,
       "source": "Ticketmaster"
     },
     {
@@ -685,6 +662,17 @@
       "source": "The Z"
     },
     {
+      "title": "The Nutcracker",
+      "kind": "Theater",
+      "place": "Harrison Opera House",
+      "city": "Norfolk",
+      "url": "https://www.ticketmaster.com/the-nutcracker-norfolk-virginia-12-04-2026/event/01006498E941855B",
+      "free": false,
+      "from": "2026-12-04",
+      "to": "2026-12-06",
+      "source": "Ticketmaster"
+    },
+    {
       "title": "Virginia Musical Theatre-Million Dollar Quartet Christmas",
       "kind": "Theater",
       "place": "Sandler Center For The Performing Arts",
@@ -692,7 +680,7 @@
       "url": "https://www.ticketmaster.com/virginia-musical-theatremillion-dollar-quartet-christmas-virginia-beach-virginia-12-04-2026/event/010064D6B51EE358",
       "free": false,
       "from": "2026-12-04",
-      "to": "2026-12-05",
+      "to": "2026-12-06",
       "source": "Ticketmaster"
     },
     {
