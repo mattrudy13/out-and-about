@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-10T23:16:20.831Z",
-  "from": "2026-11-10",
-  "to": "2026-12-07",
+  "updated": "2026-11-11T17:52:38.036Z",
+  "from": "2026-11-11",
+  "to": "2026-12-08",
   "sources": {
     "The Z": {
       "ok": true,
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-10T23:16:14.884Z"
+      "checked": "2026-11-11T17:52:33.086Z"
     },
     "Virginia Symphony": {
       "ok": true,
       "events": 3,
-      "checked": "2026-11-10T23:16:14.884Z"
+      "checked": "2026-11-11T17:52:33.086Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-10T23:16:14.884Z"
+      "checked": "2026-11-11T17:52:33.086Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -32,54 +32,21 @@
     },
     "Ticketmaster": {
       "ok": true,
-      "events": 49,
-      "checked": "2026-11-10T23:16:14.884Z"
+      "events": 46,
+      "checked": "2026-11-11T17:52:33.086Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 8,
-      "checked": "2026-11-10T23:16:14.884Z"
+      "checked": "2026-11-11T17:52:33.086Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-10T23:16:14.884Z"
+      "checked": "2026-11-11T17:52:33.086Z"
     }
   },
   "events": [
-    {
-      "title": "Free Throw + Microwave",
-      "date": "2026-11-10",
-      "time": "19:00",
-      "kind": "Music",
-      "place": "Elevation 27",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/free-throw-microwave-virginia-beach-virginia-11-10-2026/event/010064D2E24F0A0C",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "Madeon",
-      "date": "2026-11-10",
-      "time": "19:30",
-      "kind": "Music",
-      "place": "The Norva",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70tu9",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "The Bodyguard",
-      "date": "2026-11-10",
-      "time": "19:30",
-      "kind": "Theater",
-      "place": "Harrison Opera House",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-10-2026/event/01006479BDB3464B",
-      "note": "8 shows through Nov 15",
-      "source": "Ticketmaster"
-    },
     {
       "title": "Catch Your Breath w/ TX2",
       "date": "2026-11-11",
@@ -89,6 +56,17 @@
       "city": "Norfolk",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PvCF",
       "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "The Bodyguard",
+      "date": "2026-11-11",
+      "time": "19:30",
+      "kind": "Theater",
+      "place": "Harrison Opera House",
+      "city": "Norfolk",
+      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-11-2026/event/01006479BDB44662",
+      "note": "7 shows through Nov 15",
       "source": "Ticketmaster"
     },
     {
@@ -655,9 +633,9 @@
       "kind": "Theater",
       "place": "Harrison Opera House",
       "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-10-2026/event/01006479BDB3464B",
+      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-11-2026/event/01006479BDB44662",
       "free": false,
-      "from": "2026-11-10",
+      "from": "2026-11-11",
       "to": "2026-11-15",
       "source": "Ticketmaster"
     },
