@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-12T00:39:18.986Z",
-  "from": "2026-11-11",
-  "to": "2026-12-08",
+  "updated": "2026-11-12T18:17:05.816Z",
+  "from": "2026-11-12",
+  "to": "2026-12-09",
   "sources": {
     "The Z": {
       "ok": true,
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-12T00:39:13.775Z"
+      "checked": "2026-11-12T18:16:59.900Z"
     },
     "Virginia Symphony": {
       "ok": true,
       "events": 3,
-      "checked": "2026-11-12T00:39:13.775Z"
+      "checked": "2026-11-12T18:16:59.900Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-12T00:39:13.775Z"
+      "checked": "2026-11-12T18:16:59.900Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -33,31 +33,20 @@
     "Ticketmaster": {
       "ok": true,
       "events": 45,
-      "checked": "2026-11-12T00:39:13.775Z"
+      "checked": "2026-11-12T18:16:59.900Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 8,
-      "checked": "2026-11-12T00:39:13.775Z"
+      "checked": "2026-11-12T18:16:59.900Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-12T00:39:13.775Z"
+      "checked": "2026-11-12T18:16:59.900Z"
     }
   },
   "events": [
-    {
-      "title": "The Bodyguard",
-      "date": "2026-11-11",
-      "time": "19:30",
-      "kind": "Theater",
-      "place": "Harrison Opera House",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-11-2026/event/01006479BDB44662",
-      "note": "7 shows through Nov 15",
-      "source": "Ticketmaster"
-    },
     {
       "title": "Offsite Gallery at TCC VADC opening reception: “Ink & Exposure” a group exhibition by Heather Mitcham, Victor Perrotti and Michal Mahgerefteh",
       "kind": "Art",
@@ -69,6 +58,17 @@
       "time": "17:00",
       "note": null,
       "source": "Norfolk Arts"
+    },
+    {
+      "title": "The Bodyguard",
+      "date": "2026-11-12",
+      "time": "19:30",
+      "kind": "Theater",
+      "place": "Harrison Opera House",
+      "city": "Norfolk",
+      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-12-2026/event/01006479BDB6466A",
+      "note": "6 shows through Nov 15",
+      "source": "Ticketmaster"
     },
     {
       "title": "The Humanitarian",
@@ -614,6 +614,17 @@
       "url": "https://www.ticketmaster.com/jason-bonhams-led-zeppelin-evening-virginia-beach-virginia-12-07-2026/event/01006529DAEDF69D",
       "note": null,
       "source": "Ticketmaster"
+    },
+    {
+      "title": "Men Without Hats",
+      "date": "2026-12-09",
+      "time": "19:30",
+      "kind": "Music",
+      "place": "Elevation 27",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/men-without-hats-virginia-beach-virginia-12-09-2026/event/01006528D0DFB1DA",
+      "note": null,
+      "source": "Ticketmaster"
     }
   ],
   "running": [
@@ -622,9 +633,9 @@
       "kind": "Theater",
       "place": "Harrison Opera House",
       "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-11-2026/event/01006479BDB44662",
+      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-12-2026/event/01006479BDB6466A",
       "free": false,
-      "from": "2026-11-11",
+      "from": "2026-11-12",
       "to": "2026-11-15",
       "source": "Ticketmaster"
     },
