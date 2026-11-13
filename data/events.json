@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-13T02:37:02.285Z",
-  "from": "2026-11-12",
-  "to": "2026-12-09",
+  "updated": "2026-11-13T17:42:25.959Z",
+  "from": "2026-11-13",
+  "to": "2026-12-10",
   "sources": {
     "The Z": {
       "ok": true,
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-13T02:36:56.863Z"
+      "checked": "2026-11-13T17:42:20.817Z"
     },
     "Virginia Symphony": {
       "ok": true,
-      "events": 3,
-      "checked": "2026-11-13T02:36:56.863Z"
+      "events": 4,
+      "checked": "2026-11-13T17:42:20.817Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-13T02:36:56.863Z"
+      "checked": "2026-11-13T17:42:20.817Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -33,41 +33,29 @@
     "Ticketmaster": {
       "ok": true,
       "events": 45,
-      "checked": "2026-11-13T02:36:56.863Z"
+      "checked": "2026-11-13T17:42:20.817Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 8,
-      "checked": "2026-11-13T02:36:56.863Z"
+      "checked": "2026-11-13T17:42:20.817Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-13T02:36:56.863Z"
+      "checked": "2026-11-13T17:42:20.817Z"
     }
   },
   "events": [
     {
-      "title": "Offsite Gallery at TCC VADC opening reception: “Ink & Exposure” a group exhibition by Heather Mitcham, Victor Perrotti and Michal Mahgerefteh",
-      "kind": "Art",
-      "place": "Tidewater Community College Visual Art & Design Center",
-      "city": "Norfolk",
-      "url": "https://norfolkarts.net/event/offsite-gallery-at-tcc-vadc-opening-reception-victor-perrotti-heather-mitcham-and-hanna-kirby/",
-      "free": false,
-      "date": "2026-11-12",
-      "time": "17:00",
-      "note": null,
-      "source": "Norfolk Arts"
-    },
-    {
       "title": "The Bodyguard",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "time": "19:30",
       "kind": "Theater",
       "place": "Harrison Opera House",
       "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-12-2026/event/01006479BDB6466A",
-      "note": "6 shows through Nov 15",
+      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-13-2026/event/01006479BDB7466E",
+      "note": "5 shows through Nov 15",
       "source": "Ticketmaster"
     },
     {
@@ -625,6 +613,41 @@
       "url": "https://www.ticketmaster.com/men-without-hats-virginia-beach-virginia-12-09-2026/event/01006528D0DFB1DA",
       "note": null,
       "source": "Ticketmaster"
+    },
+    {
+      "title": "Thursday Art Brew with the artists each month inside The Gallery at the Attucks",
+      "kind": "Art",
+      "place": "The Gallery at the Attucks Theatre",
+      "city": "Norfolk",
+      "url": "https://norfolkarts.net/event/thursday-art-brew/2026-12-10/",
+      "free": false,
+      "date": "2026-12-10",
+      "time": "17:30",
+      "note": null,
+      "source": "Norfolk Arts"
+    },
+    {
+      "title": "Handel’s Messiah",
+      "kind": "Music",
+      "place": "Regent University Theatre",
+      "city": "Virginia Beach",
+      "url": "https://virginiasymphony.org/event/handels-messiah-3/",
+      "free": false,
+      "date": "2026-12-10",
+      "time": "19:30",
+      "note": null,
+      "source": "Virginia Symphony"
+    },
+    {
+      "title": "Bobby Nsenga",
+      "date": "2026-12-10",
+      "time": "20:00",
+      "kind": "Music",
+      "place": "Elevation 27",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/bobby-nsenga-virginia-beach-virginia-12-10-2026/event/0100653CC80321BC",
+      "note": null,
+      "source": "Ticketmaster"
     }
   ],
   "running": [
@@ -633,9 +656,9 @@
       "kind": "Theater",
       "place": "Harrison Opera House",
       "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-12-2026/event/01006479BDB6466A",
+      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-13-2026/event/01006479BDB7466E",
       "free": false,
-      "from": "2026-11-12",
+      "from": "2026-11-13",
       "to": "2026-11-15",
       "source": "Ticketmaster"
     },
