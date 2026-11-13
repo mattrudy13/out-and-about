@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T18:17:05.816Z",
+  "updated": "2026-11-13T02:37:02.285Z",
   "from": "2026-11-12",
   "to": "2026-12-09",
   "sources": {
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-12T18:16:59.900Z"
+      "checked": "2026-11-13T02:36:56.863Z"
     },
     "Virginia Symphony": {
       "ok": true,
       "events": 3,
-      "checked": "2026-11-12T18:16:59.900Z"
+      "checked": "2026-11-13T02:36:56.863Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-12T18:16:59.900Z"
+      "checked": "2026-11-13T02:36:56.863Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -33,17 +33,17 @@
     "Ticketmaster": {
       "ok": true,
       "events": 45,
-      "checked": "2026-11-12T18:16:59.900Z"
+      "checked": "2026-11-13T02:36:56.863Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 8,
-      "checked": "2026-11-12T18:16:59.900Z"
+      "checked": "2026-11-13T02:36:56.863Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-12T18:16:59.900Z"
+      "checked": "2026-11-13T02:36:56.863Z"
     }
   },
   "events": [
