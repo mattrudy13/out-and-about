@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-13T23:30:52.850Z",
-  "from": "2026-11-13",
-  "to": "2026-12-10",
+  "updated": "2026-11-14T16:35:42.011Z",
+  "from": "2026-11-14",
+  "to": "2026-12-11",
   "sources": {
     "The Z": {
       "ok": true,
@@ -11,18 +11,18 @@
     },
     "Virginia MOCA": {
       "ok": true,
-      "events": 0,
-      "checked": "2026-11-13T23:30:48.410Z"
+      "events": 1,
+      "checked": "2026-11-14T16:35:36.522Z"
     },
     "Virginia Symphony": {
       "ok": true,
-      "events": 4,
-      "checked": "2026-11-13T23:30:48.410Z"
+      "events": 5,
+      "checked": "2026-11-14T16:35:36.522Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 4,
-      "checked": "2026-11-13T23:30:48.410Z"
+      "checked": "2026-11-14T16:35:36.522Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -33,76 +33,20 @@
     "Ticketmaster": {
       "ok": true,
       "events": 45,
-      "checked": "2026-11-13T23:30:48.410Z"
+      "checked": "2026-11-14T16:35:36.522Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 8,
-      "checked": "2026-11-13T23:30:48.410Z"
+      "checked": "2026-11-14T16:35:36.522Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-13T23:30:48.410Z"
+      "checked": "2026-11-14T16:35:36.522Z"
     }
   },
   "events": [
-    {
-      "title": "The Bodyguard",
-      "date": "2026-11-13",
-      "time": "19:30",
-      "kind": "Theater",
-      "place": "Harrison Opera House",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-13-2026/event/01006479BDB7466E",
-      "note": "5 shows through Nov 15",
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "The Humanitarian",
-      "kind": "Theater",
-      "place": "The Z (Zeiders American Dream Theater)",
-      "city": "Virginia Beach",
-      "url": "https://thez.org/event/the-humanitarian/",
-      "free": false,
-      "date": "2026-11-13",
-      "time": "19:30",
-      "note": "Runs through Nov 21",
-      "source": "The Z"
-    },
-    {
-      "title": "BEAT: Belew/Vai/Levin/Bozzio Performing the Music of KING CRIMSON",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "kind": "Music",
-      "place": "Sandler Center For The Performing Arts",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/beat-belewvailevinbozzio-performing-the-music-of-virginia-beach-virginia-11-13-2026/event/010064FEAD9B5A06",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "Fox N' Vead",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "kind": "Music",
-      "place": "Elevation 27",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/fox-n-vead-virginia-beach-virginia-11-13-2026/event/010064DA80E672F9",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "Yung Gravy",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "kind": "Music",
-      "place": "The Norva",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv4F6",
-      "note": null,
-      "source": "Ticketmaster"
-    },
     {
       "title": "East Beach Farmers Market",
       "date": "2026-11-14",
@@ -126,6 +70,17 @@
       "free": true,
       "note": "Free · check the date before you go",
       "source": "Farmers markets"
+    },
+    {
+      "title": "The Bodyguard",
+      "date": "2026-11-14",
+      "time": "14:00",
+      "kind": "Theater",
+      "place": "Harrison Opera House",
+      "city": "Norfolk",
+      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-14-2026/event/01006479BDB84681",
+      "note": "4 shows through Nov 15",
+      "source": "Ticketmaster"
     },
     {
       "title": "K·POP SUPERSTARS LIVE",
@@ -648,6 +603,52 @@
       "url": "https://www.ticketmaster.com/bobby-nsenga-virginia-beach-virginia-12-10-2026/event/0100653CC80321BC",
       "note": null,
       "source": "Ticketmaster"
+    },
+    {
+      "title": "Night Shift VI",
+      "kind": "Art",
+      "place": "Virginia MOCA",
+      "city": "Virginia Beach",
+      "url": "https://virginiamoca.org/event/night-shift-vi/",
+      "free": false,
+      "date": "2026-12-11",
+      "time": "18:00",
+      "note": null,
+      "source": "Virginia MOCA"
+    },
+    {
+      "title": "Ballet Virginia: The Nutcracker",
+      "date": "2026-12-11",
+      "time": "19:30",
+      "kind": "Theater",
+      "place": "Sandler Center For The Performing Arts",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/ballet-virginia-the-nutcracker-virginia-beach-virginia-12-11-2026/event/0100650A895F6746",
+      "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "Handel’s Messiah",
+      "kind": "Music",
+      "place": "Harrison Opera House",
+      "city": "Norfolk",
+      "url": "https://virginiasymphony.org/event/handels-messiah-2/",
+      "free": false,
+      "date": "2026-12-11",
+      "time": "19:30",
+      "note": null,
+      "source": "Virginia Symphony"
+    },
+    {
+      "title": "The Fighting Jamesons",
+      "date": "2026-12-11",
+      "time": "20:00",
+      "kind": "Music",
+      "place": "Elevation 27",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/the-fighting-jamesons-virginia-beach-virginia-12-11-2026/event/0100649EB0F9316A",
+      "note": "Rescheduled",
+      "source": "Ticketmaster"
     }
   ],
   "running": [
@@ -656,9 +657,9 @@
       "kind": "Theater",
       "place": "Harrison Opera House",
       "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-13-2026/event/01006479BDB7466E",
+      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-14-2026/event/01006479BDB84681",
       "free": false,
-      "from": "2026-11-13",
+      "from": "2026-11-14",
       "to": "2026-11-15",
       "source": "Ticketmaster"
     },
