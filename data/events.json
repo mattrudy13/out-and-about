@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-14T22:20:38.439Z",
-  "from": "2026-11-14",
-  "to": "2026-12-11",
+  "updated": "2026-11-15T15:03:08.101Z",
+  "from": "2026-11-15",
+  "to": "2026-12-12",
   "sources": {
     "The Z": {
       "ok": true,
-      "events": 2,
-      "checked": "2026-11-08T15:00:05.859Z",
+      "events": 1,
+      "checked": "2026-11-15T15:03:06.752Z",
       "macOnly": true
     },
     "Virginia MOCA": {
@@ -27,7 +27,7 @@
     "Little Theatre of VB": {
       "ok": true,
       "events": 1,
-      "checked": "2026-11-08T15:00:05.859Z",
+      "checked": "2026-11-15T15:03:06.752Z",
       "macOnly": true
     },
     "Ticketmaster": {
@@ -47,97 +47,6 @@
     }
   },
   "events": [
-    {
-      "title": "East Beach Farmers Market",
-      "date": "2026-11-14",
-      "time": "09:00",
-      "kind": "Market",
-      "place": "Bay Oaks Park, 2413 E Ocean View Ave",
-      "city": "Norfolk",
-      "url": "https://www.visitnorfolk.com/event/east-beach-farmers-market-weekly",
-      "free": true,
-      "note": "Free",
-      "source": "Farmers markets"
-    },
-    {
-      "title": "Shore Drive Farm Market",
-      "date": "2026-11-14",
-      "time": "09:00",
-      "kind": "Market",
-      "place": "Shore Drive",
-      "city": "Virginia Beach",
-      "url": "https://marketspread.com/market/12678/shore-drive-farm-market/",
-      "free": true,
-      "note": "Free · check the date before you go",
-      "source": "Farmers markets"
-    },
-    {
-      "title": "The Bodyguard",
-      "date": "2026-11-14",
-      "time": "14:00",
-      "kind": "Theater",
-      "place": "Harrison Opera House",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/the-bodyguard-touring-norfolk-virginia-11-14-2026/event/01006479BDB84681",
-      "note": "4 shows through Nov 15",
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "K·POP SUPERSTARS LIVE",
-      "date": "2026-11-14",
-      "time": "17:00",
-      "kind": "Music",
-      "place": "The Dome by Rutter Mills",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/kpop-superstars-live-virginia-beach-virginia-11-14-2026/event/0100651FCB314311",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "Pre-show performance inside The Gallery at the Attucks prior to all Virginia Arts Festival Attucks Jazz Club events",
-      "kind": "Art",
-      "place": "The Gallery at the Attucks Theatre",
-      "city": "Norfolk",
-      "url": "https://norfolkarts.net/event/free-pre-show-performance-inside-the-gallery-at-the-attucks-prior-to-all-virginia-arts-festival-attucks-jazz-club-events/2026-11-14/",
-      "free": true,
-      "date": "2026-11-14",
-      "time": "18:30",
-      "note": "Free",
-      "source": "Norfolk Arts"
-    },
-    {
-      "title": "Virginia Arts Festival - Gabriela Allemana",
-      "date": "2026-11-14",
-      "time": "19:30",
-      "kind": "Theater",
-      "place": "Attucks Theatre",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/virginia-arts-festival-gabriela-allemana-norfolk-virginia-11-14-2026/event/010065079635B3EE",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "The Gringos",
-      "date": "2026-11-14",
-      "time": "20:00",
-      "kind": "Music",
-      "place": "Elevation 27",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/the-gringos-virginia-beach-virginia-11-14-2026/event/010064D628034711",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "Three Dog Night",
-      "date": "2026-11-14",
-      "time": "20:00",
-      "kind": "Music",
-      "place": "Sandler Center For The Performing Arts",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/three-dog-night-virginia-beach-virginia-11-14-2026/event/010064BDA22E654A",
-      "note": null,
-      "source": "Ticketmaster"
-    },
     {
       "title": "Norfolk Arts grantee event! “Arts at the Attucks”",
       "kind": "Art",
@@ -662,17 +571,6 @@
       "from": "2026-11-14",
       "to": "2026-11-15",
       "source": "Ticketmaster"
-    },
-    {
-      "title": "The Humanitarian",
-      "kind": "Theater",
-      "place": "The Z (Zeiders American Dream Theater)",
-      "city": "Virginia Beach",
-      "url": "https://thez.org/event/the-humanitarian/",
-      "free": false,
-      "from": "2026-11-13",
-      "to": "2026-11-21",
-      "source": "The Z"
     },
     {
       "title": "The Nutcracker",
