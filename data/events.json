@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-17T04:28:29.650Z",
-  "from": "2026-11-16",
-  "to": "2026-12-13",
+  "updated": "2026-11-17T19:10:06.659Z",
+  "from": "2026-11-17",
+  "to": "2026-12-14",
   "sources": {
     "The Z": {
       "ok": true,
@@ -10,19 +10,21 @@
       "macOnly": true
     },
     "Virginia MOCA": {
-      "ok": true,
-      "events": 2,
+      "ok": false,
+      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
+      "keptFromLastRun": 2,
       "checked": "2026-11-17T04:28:25.422Z"
     },
     "Virginia Symphony": {
-      "ok": true,
-      "events": 6,
+      "ok": false,
+      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
+      "keptFromLastRun": 6,
       "checked": "2026-11-17T04:28:25.422Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 2,
-      "checked": "2026-11-17T04:28:25.422Z"
+      "checked": "2026-11-17T19:10:04.654Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -32,18 +34,18 @@
     },
     "Ticketmaster": {
       "ok": true,
-      "events": 46,
-      "checked": "2026-11-17T04:28:25.422Z"
+      "events": 47,
+      "checked": "2026-11-17T19:10:04.654Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 7,
-      "checked": "2026-11-17T04:28:25.422Z"
+      "checked": "2026-11-17T19:10:04.654Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-17T04:28:25.422Z"
+      "checked": "2026-11-17T19:10:04.654Z"
     }
   },
   "events": [
@@ -637,6 +639,17 @@
       "time": null,
       "note": null,
       "source": "Virginia MOCA"
+    },
+    {
+      "title": "Tidewater Winds: Holiday Classics",
+      "date": "2026-12-14",
+      "time": "19:30",
+      "kind": "Music",
+      "place": "Sandler Center For The Performing Arts",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/tidewater-winds-holiday-classics-virginia-beach-virginia-12-14-2026/event/01006514A7F3EAEE",
+      "note": null,
+      "source": "Ticketmaster"
     }
   ],
   "running": [
