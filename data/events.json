@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T20:26:20.640Z",
+  "updated": "2026-11-17T04:28:29.650Z",
   "from": "2026-11-16",
   "to": "2026-12-13",
   "sources": {
@@ -10,21 +10,19 @@
       "macOnly": true
     },
     "Virginia MOCA": {
-      "ok": false,
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "keptFromLastRun": 1,
-      "checked": "2026-11-15T22:46:56.670Z"
+      "ok": true,
+      "events": 2,
+      "checked": "2026-11-17T04:28:25.422Z"
     },
     "Virginia Symphony": {
-      "ok": false,
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "keptFromLastRun": 5,
-      "checked": "2026-11-15T22:46:56.670Z"
+      "ok": true,
+      "events": 6,
+      "checked": "2026-11-17T04:28:25.422Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 2,
-      "checked": "2026-11-16T20:26:18.689Z"
+      "checked": "2026-11-17T04:28:25.422Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -35,17 +33,17 @@
     "Ticketmaster": {
       "ok": true,
       "events": 46,
-      "checked": "2026-11-16T20:26:18.689Z"
+      "checked": "2026-11-17T04:28:25.422Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 7,
-      "checked": "2026-11-16T20:26:18.689Z"
+      "checked": "2026-11-17T04:28:25.422Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-16T20:26:18.689Z"
+      "checked": "2026-11-17T04:28:25.422Z"
     }
   },
   "events": [
@@ -493,18 +491,6 @@
       "source": "Ticketmaster"
     },
     {
-      "title": "Night Shift VI",
-      "kind": "Art",
-      "place": "Virginia MOCA",
-      "city": "Virginia Beach",
-      "url": "https://virginiamoca.org/event/night-shift-vi/",
-      "free": false,
-      "date": "2026-12-11",
-      "time": "18:00",
-      "note": null,
-      "source": "Virginia MOCA"
-    },
-    {
       "title": "Ballet Virginia: The Nutcracker",
       "date": "2026-12-11",
       "time": "19:30",
@@ -537,6 +523,18 @@
       "url": "https://www.ticketmaster.com/the-fighting-jamesons-virginia-beach-virginia-12-11-2026/event/0100649EB0F9316A",
       "note": "Rescheduled",
       "source": "Ticketmaster"
+    },
+    {
+      "title": "Night Shift VI",
+      "kind": "Art",
+      "place": "Virginia MOCA",
+      "city": "Virginia Beach",
+      "url": "https://virginiamoca.org/event/night-shift-vi/",
+      "free": false,
+      "date": "2026-12-11",
+      "time": null,
+      "note": null,
+      "source": "Virginia MOCA"
     },
     {
       "title": "Shore Drive Farm Market",
@@ -595,6 +593,18 @@
       "source": "Ticketmaster"
     },
     {
+      "title": "Holiday Brass",
+      "kind": "Music",
+      "place": "Attucks Theatre",
+      "city": "Norfolk",
+      "url": "https://virginiasymphony.org/event/holiday-brass-3/",
+      "free": false,
+      "date": "2026-12-13",
+      "time": "15:00",
+      "note": null,
+      "source": "Virginia Symphony"
+    },
+    {
       "title": "Sean Heely's Celtic Christmas",
       "date": "2026-12-13",
       "time": "15:00",
@@ -602,17 +612,6 @@
       "place": "Harrison Opera House",
       "city": "Norfolk",
       "url": "https://www.ticketmaster.com/sean-heelys-celtic-christmas-norfolk-virginia-12-13-2026/event/0100651FEB19BEF2",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "Virginia Symphony: Holiday Brass",
-      "date": "2026-12-13",
-      "time": "15:00",
-      "kind": "Music",
-      "place": "Attucks Theatre",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/virginia-symphony-holiday-brass-norfolk-virginia-12-13-2026/event/010064F0A900FD28",
       "note": null,
       "source": "Ticketmaster"
     },
@@ -626,6 +625,18 @@
       "url": "https://www.ticketmaster.com/bodysnatcher-virginia-beach-virginia-12-13-2026/event/010064FDDB3F2644",
       "note": null,
       "source": "Ticketmaster"
+    },
+    {
+      "title": "Gift & Gallery: A Holiday Art Market",
+      "kind": "Art",
+      "place": "Virginia MOCA",
+      "city": "Virginia Beach",
+      "url": "https://virginiamoca.org/event/gift-gallery-a-holiday-art-market/",
+      "free": false,
+      "date": "2026-12-13",
+      "time": null,
+      "note": null,
+      "source": "Virginia MOCA"
     }
   ],
   "running": [
