@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T19:10:06.659Z",
+  "updated": "2026-11-18T03:42:07.817Z",
   "from": "2026-11-17",
   "to": "2026-12-14",
   "sources": {
@@ -10,21 +10,19 @@
       "macOnly": true
     },
     "Virginia MOCA": {
-      "ok": false,
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "keptFromLastRun": 2,
-      "checked": "2026-11-17T04:28:25.422Z"
+      "ok": true,
+      "events": 2,
+      "checked": "2026-11-18T03:42:01.539Z"
     },
     "Virginia Symphony": {
-      "ok": false,
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "keptFromLastRun": 6,
-      "checked": "2026-11-17T04:28:25.422Z"
+      "ok": true,
+      "events": 6,
+      "checked": "2026-11-18T03:42:01.539Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 2,
-      "checked": "2026-11-17T19:10:04.654Z"
+      "checked": "2026-11-18T03:42:01.539Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -34,32 +32,21 @@
     },
     "Ticketmaster": {
       "ok": true,
-      "events": 47,
-      "checked": "2026-11-17T19:10:04.654Z"
+      "events": 46,
+      "checked": "2026-11-18T03:42:01.539Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 7,
-      "checked": "2026-11-17T19:10:04.654Z"
+      "checked": "2026-11-18T03:42:01.539Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-17T19:10:04.654Z"
+      "checked": "2026-11-18T03:42:01.539Z"
     }
   },
   "events": [
-    {
-      "title": "Lenny Pearce",
-      "date": "2026-11-17",
-      "time": "18:00",
-      "kind": "Music",
-      "place": "The Norva",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ptxe",
-      "note": null,
-      "source": "Ticketmaster"
-    },
     {
       "title": "A Very Merry Musical Market",
       "kind": "Music",
@@ -595,6 +582,18 @@
       "source": "Ticketmaster"
     },
     {
+      "title": "Gift & Gallery: A Holiday Art Market",
+      "kind": "Art",
+      "place": "Virginia MOCA",
+      "city": "Virginia Beach",
+      "url": "https://virginiamoca.org/event/gift-gallery-a-holiday-art-market/",
+      "free": false,
+      "date": "2026-12-13",
+      "time": "10:00",
+      "note": null,
+      "source": "Virginia MOCA"
+    },
+    {
       "title": "Holiday Brass",
       "kind": "Music",
       "place": "Attucks Theatre",
@@ -627,18 +626,6 @@
       "url": "https://www.ticketmaster.com/bodysnatcher-virginia-beach-virginia-12-13-2026/event/010064FDDB3F2644",
       "note": null,
       "source": "Ticketmaster"
-    },
-    {
-      "title": "Gift & Gallery: A Holiday Art Market",
-      "kind": "Art",
-      "place": "Virginia MOCA",
-      "city": "Virginia Beach",
-      "url": "https://virginiamoca.org/event/gift-gallery-a-holiday-art-market/",
-      "free": false,
-      "date": "2026-12-13",
-      "time": null,
-      "note": null,
-      "source": "Virginia MOCA"
     },
     {
       "title": "Tidewater Winds: Holiday Classics",
