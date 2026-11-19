@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-19T03:22:47.959Z",
-  "from": "2026-11-18",
-  "to": "2026-12-15",
+  "updated": "2026-11-19T18:58:23.203Z",
+  "from": "2026-11-19",
+  "to": "2026-12-16",
   "sources": {
     "The Z": {
       "ok": true,
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 3,
-      "checked": "2026-11-19T03:22:42.366Z"
+      "checked": "2026-11-19T18:58:17.622Z"
     },
     "Virginia Symphony": {
       "ok": true,
-      "events": 6,
-      "checked": "2026-11-19T03:22:42.366Z"
+      "events": 5,
+      "checked": "2026-11-19T18:58:17.622Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 2,
-      "checked": "2026-11-19T03:22:42.366Z"
+      "checked": "2026-11-19T18:58:17.622Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -33,43 +33,20 @@
     "Ticketmaster": {
       "ok": true,
       "events": 48,
-      "checked": "2026-11-19T03:22:42.366Z"
+      "checked": "2026-11-19T18:58:17.622Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 7,
-      "checked": "2026-11-19T03:22:42.366Z"
+      "checked": "2026-11-19T18:58:17.622Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-19T03:22:42.366Z"
+      "checked": "2026-11-19T18:58:17.622Z"
     }
   },
   "events": [
-    {
-      "title": "A Very Merry Musical Market",
-      "kind": "Music",
-      "place": "Elation Brewing",
-      "city": "Norfolk",
-      "url": "https://virginiasymphony.org/event/a-very-merry-musical-market/",
-      "free": false,
-      "date": "2026-11-18",
-      "time": "18:00",
-      "note": null,
-      "source": "Virginia Symphony"
-    },
-    {
-      "title": "Jesse Cook: Forever Live",
-      "date": "2026-11-18",
-      "time": "19:30",
-      "kind": "Music",
-      "place": "Attucks Theatre",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/jesse-cook-forever-live-norfolk-virginia-11-18-2026/event/010064F8E2DE96F6",
-      "note": null,
-      "source": "Ticketmaster"
-    },
     {
       "title": "Thursday Art Brew",
       "kind": "Art",
@@ -669,6 +646,17 @@
       "place": "Sandler Center For The Performing Arts",
       "city": "Virginia Beach",
       "url": "https://www.ticketmaster.com/vienna-boys-choir-virginia-beach-virginia-12-15-2026/event/0100651FC3322A62",
+      "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "Jim Brickman",
+      "date": "2026-12-16",
+      "time": "19:30",
+      "kind": "Music",
+      "place": "Sandler Center For The Performing Arts",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/jim-brickman-virginia-beach-virginia-12-16-2026/event/01006496CDB6D7A2",
       "note": null,
       "source": "Ticketmaster"
     }
