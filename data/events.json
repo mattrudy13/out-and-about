@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-20T03:09:43.276Z",
-  "from": "2026-11-19",
-  "to": "2026-12-16",
+  "updated": "2026-11-20T18:36:05.760Z",
+  "from": "2026-11-20",
+  "to": "2026-12-17",
   "sources": {
     "The Z": {
       "ok": true,
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 3,
-      "checked": "2026-11-20T03:09:37.770Z"
+      "checked": "2026-11-20T18:36:00.174Z"
     },
     "Virginia Symphony": {
       "ok": true,
       "events": 5,
-      "checked": "2026-11-20T03:09:37.770Z"
+      "checked": "2026-11-20T18:36:00.174Z"
     },
     "Norfolk Arts": {
       "ok": true,
-      "events": 2,
-      "checked": "2026-11-20T03:09:37.770Z"
+      "events": 1,
+      "checked": "2026-11-20T18:36:00.174Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -32,33 +32,21 @@
     },
     "Ticketmaster": {
       "ok": true,
-      "events": 48,
-      "checked": "2026-11-20T03:09:37.770Z"
+      "events": 51,
+      "checked": "2026-11-20T18:36:00.174Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 7,
-      "checked": "2026-11-20T03:09:37.770Z"
+      "checked": "2026-11-20T18:36:00.174Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-20T03:09:37.770Z"
+      "checked": "2026-11-20T18:36:00.174Z"
     }
   },
   "events": [
-    {
-      "title": "Thursday Art Brew",
-      "kind": "Art",
-      "place": "The Gallery at the Attucks Theatre",
-      "city": "Norfolk",
-      "url": "https://norfolkarts.net/event/thursday-art-brew-2/",
-      "free": true,
-      "date": "2026-11-19",
-      "time": "17:30",
-      "note": "Free",
-      "source": "Norfolk Arts"
-    },
     {
       "title": "Benefit Concert for The Muse Writers Center",
       "kind": "Music",
@@ -657,6 +645,28 @@
       "place": "Sandler Center For The Performing Arts",
       "city": "Virginia Beach",
       "url": "https://www.ticketmaster.com/jim-brickman-virginia-beach-virginia-12-16-2026/event/01006496CDB6D7A2",
+      "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "Daily Bread",
+      "date": "2026-12-17",
+      "time": "19:30",
+      "kind": "Music",
+      "place": "The Norva",
+      "city": "Norfolk",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZd_N",
+      "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "A Charlie Brown Christmas",
+      "date": "2026-12-17",
+      "time": "20:00",
+      "kind": "Music",
+      "place": "Attucks Theatre",
+      "city": "Norfolk",
+      "url": "https://www.ticketmaster.com/a-charlie-brown-christmas-norfolk-virginia-12-17-2026/event/01006541CC43ABA4",
       "note": null,
       "source": "Ticketmaster"
     }
