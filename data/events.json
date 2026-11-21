@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-21T03:11:53.183Z",
-  "from": "2026-11-20",
-  "to": "2026-12-17",
+  "updated": "2026-11-21T17:28:21.961Z",
+  "from": "2026-11-21",
+  "to": "2026-12-18",
   "sources": {
     "The Z": {
       "ok": true,
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 3,
-      "checked": "2026-11-21T03:11:47.297Z"
+      "checked": "2026-11-21T17:28:14.181Z"
     },
     "Virginia Symphony": {
       "ok": true,
-      "events": 5,
-      "checked": "2026-11-21T03:11:47.297Z"
+      "events": 6,
+      "checked": "2026-11-21T17:28:14.181Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 1,
-      "checked": "2026-11-21T03:11:47.297Z"
+      "checked": "2026-11-21T17:28:14.181Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -33,66 +33,20 @@
     "Ticketmaster": {
       "ok": true,
       "events": 51,
-      "checked": "2026-11-21T03:11:47.297Z"
+      "checked": "2026-11-21T17:28:14.181Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 7,
-      "checked": "2026-11-21T03:11:47.297Z"
+      "checked": "2026-11-21T17:28:14.181Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-21T03:11:47.297Z"
+      "checked": "2026-11-21T17:28:14.181Z"
     }
   },
   "events": [
-    {
-      "title": "Benefit Concert for The Muse Writers Center",
-      "kind": "Music",
-      "place": "Harrison Opera House",
-      "city": "Norfolk",
-      "url": "https://virginiasymphony.org/event/torch-benefit-concert/",
-      "free": false,
-      "date": "2026-11-20",
-      "time": "19:30",
-      "note": null,
-      "source": "Virginia Symphony"
-    },
-    {
-      "title": "Pandora's Box: Tribute to Aerosmith",
-      "date": "2026-11-20",
-      "time": "20:00",
-      "kind": "Music",
-      "place": "Elevation 27",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/pandoras-box-tribute-to-aerosmith-virginia-beach-virginia-11-20-2026/event/01006523FB78AE21",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "Trippie Redd - The Non-disclosure Agreement Tour",
-      "date": "2026-11-20",
-      "time": "20:00",
-      "kind": "Music",
-      "place": "The Dome by Rutter Mills",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/trippie-redd-the-nondisclosure-agreement-tour-virginia-beach-virginia-11-20-2026/event/0100653307548C2B",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "Funny Girl opens",
-      "kind": "Theater",
-      "place": "Little Theatre of Virginia Beach",
-      "city": "Virginia Beach",
-      "url": "https://ltvb.com/shows/funny-girl/",
-      "free": false,
-      "date": "2026-11-20",
-      "time": null,
-      "note": "Runs through Dec 13",
-      "source": "Little Theatre of VB"
-    },
     {
       "title": "East Beach Farmers Market",
       "date": "2026-11-21",
@@ -667,6 +621,41 @@
       "place": "Attucks Theatre",
       "city": "Norfolk",
       "url": "https://www.ticketmaster.com/a-charlie-brown-christmas-norfolk-virginia-12-17-2026/event/01006541CC43ABA4",
+      "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "COFFEE CONCERT: Holiday POPS!",
+      "kind": "Music",
+      "place": "Harrison Opera House",
+      "city": "Norfolk",
+      "url": "https://virginiasymphony.org/event/coffee-concert-holiday-pops/",
+      "free": false,
+      "date": "2026-12-18",
+      "time": "11:00",
+      "note": null,
+      "source": "Virginia Symphony"
+    },
+    {
+      "title": "Holiday POPS!",
+      "kind": "Music",
+      "place": "Harrison Opera House",
+      "city": "Norfolk",
+      "url": "https://virginiasymphony.org/event/holiday-pops-5/",
+      "free": false,
+      "date": "2026-12-18",
+      "time": "19:30",
+      "note": null,
+      "source": "Virginia Symphony"
+    },
+    {
+      "title": "Let's Get Rocked: The Def Leppard Experience & Poisonous Crue",
+      "date": "2026-12-18",
+      "time": "20:00",
+      "kind": "Music",
+      "place": "Elevation 27",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/lets-get-rocked-the-def-leppard-virginia-beach-virginia-12-18-2026/event/0100654F9B3FAD6B",
       "note": null,
       "source": "Ticketmaster"
     }
