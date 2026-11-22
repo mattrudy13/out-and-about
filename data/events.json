@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-21T23:11:36.837Z",
-  "from": "2026-11-21",
-  "to": "2026-12-18",
+  "updated": "2026-11-22T17:48:40.964Z",
+  "from": "2026-11-22",
+  "to": "2026-12-19",
   "sources": {
     "The Z": {
       "ok": true,
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 3,
-      "checked": "2026-11-21T23:11:32.024Z"
+      "checked": "2026-11-22T17:48:36.343Z"
     },
     "Virginia Symphony": {
       "ok": true,
-      "events": 6,
-      "checked": "2026-11-21T23:11:32.024Z"
+      "events": 7,
+      "checked": "2026-11-22T17:48:36.343Z"
     },
     "Norfolk Arts": {
       "ok": true,
-      "events": 1,
-      "checked": "2026-11-21T23:11:32.024Z"
+      "events": 2,
+      "checked": "2026-11-22T17:48:36.343Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -32,101 +32,21 @@
     },
     "Ticketmaster": {
       "ok": true,
-      "events": 51,
-      "checked": "2026-11-21T23:11:32.024Z"
+      "events": 49,
+      "checked": "2026-11-22T17:48:36.343Z"
     },
     "Farmers markets": {
       "ok": true,
-      "events": 7,
-      "checked": "2026-11-21T23:11:32.024Z"
+      "events": 6,
+      "checked": "2026-11-22T17:48:36.343Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-21T23:11:32.024Z"
+      "checked": "2026-11-22T17:48:36.343Z"
     }
   },
   "events": [
-    {
-      "title": "East Beach Farmers Market",
-      "date": "2026-11-21",
-      "time": "09:00",
-      "kind": "Market",
-      "place": "Bay Oaks Park, 2413 E Ocean View Ave",
-      "city": "Norfolk",
-      "url": "https://www.visitnorfolk.com/event/east-beach-farmers-market-weekly",
-      "free": true,
-      "note": "Free",
-      "source": "Farmers markets"
-    },
-    {
-      "title": "Old Beach Farmers Market",
-      "date": "2026-11-21",
-      "time": "09:00",
-      "kind": "Market",
-      "place": "19th St, Old Beach",
-      "city": "Virginia Beach",
-      "url": "https://marketspread.com/market/9028/old-beach-farmers-market",
-      "free": true,
-      "note": "Free · check the date before you go",
-      "source": "Farmers markets"
-    },
-    {
-      "title": "Shore Drive Farm Market",
-      "date": "2026-11-21",
-      "time": "09:00",
-      "kind": "Market",
-      "place": "Shore Drive",
-      "city": "Virginia Beach",
-      "url": "https://marketspread.com/market/12678/shore-drive-farm-market/",
-      "free": true,
-      "note": "Free · check the date before you go",
-      "source": "Farmers markets"
-    },
-    {
-      "title": "Mannheim Steamroller Christmas",
-      "date": "2026-11-21",
-      "time": "15:00",
-      "kind": "Music",
-      "place": "Sandler Center For The Performing Arts",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/mannheim-steamroller-christmas-virginia-beach-virginia-11-21-2026/event/01006513ACE11DF7",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "Zach Williams With Cochren & Co. And Christian Hohn: Revival Nights",
-      "date": "2026-11-21",
-      "time": "19:00",
-      "kind": "Music",
-      "place": "The Dome by Rutter Mills",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/zach-williams-with-cochren-co-and-virginia-beach-virginia-11-21-2026/event/0100648AA5C0C6B5",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "Mannheim Steamroller Christmas",
-      "date": "2026-11-21",
-      "time": "19:30",
-      "kind": "Music",
-      "place": "Sandler Center For The Performing Arts",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/mannheim-steamroller-christmas-virginia-beach-virginia-11-21-2026/event/010064D7AA74E9BF",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "Colby Acuff with Levi Foster",
-      "date": "2026-11-21",
-      "time": "20:00",
-      "kind": "Music",
-      "place": "Elevation 27",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/colby-acuff-with-levi-foster-virginia-beach-virginia-11-21-2026/event/010064D4C06E6245",
-      "note": null,
-      "source": "Ticketmaster"
-    },
     {
       "title": "Wage War w/ We Came As Romans",
       "date": "2026-11-22",
@@ -656,6 +576,76 @@
       "place": "Elevation 27",
       "city": "Virginia Beach",
       "url": "https://www.ticketmaster.com/lets-get-rocked-the-def-leppard-virginia-beach-virginia-12-18-2026/event/0100654F9B3FAD6B",
+      "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "Old Beach Farmers Market",
+      "date": "2026-12-19",
+      "time": "09:00",
+      "kind": "Market",
+      "place": "19th St, Old Beach",
+      "city": "Virginia Beach",
+      "url": "https://marketspread.com/market/9028/old-beach-farmers-market",
+      "free": true,
+      "note": "Free · check the date before you go",
+      "source": "Farmers markets"
+    },
+    {
+      "title": "Shore Drive Farm Market",
+      "date": "2026-12-19",
+      "time": "09:00",
+      "kind": "Market",
+      "place": "Shore Drive",
+      "city": "Virginia Beach",
+      "url": "https://marketspread.com/market/12678/shore-drive-farm-market/",
+      "free": true,
+      "note": "Free · check the date before you go",
+      "source": "Farmers markets"
+    },
+    {
+      "title": "Holiday Market + Monthly Saturday Studio: Kwanzaa “Roots & Rising”",
+      "kind": "Market",
+      "place": "The Gallery at the Attucks Theatre",
+      "city": "Norfolk",
+      "url": "https://norfolkarts.net/event/holiday-market/",
+      "free": false,
+      "date": "2026-12-19",
+      "time": "12:00",
+      "note": null,
+      "source": "Norfolk Arts"
+    },
+    {
+      "title": "PBJ: JINGLE BELL JAM",
+      "date": "2026-12-19",
+      "time": "15:00",
+      "kind": "Music",
+      "place": "Sandler Center For The Performing Arts",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/pbj-jingle-bell-jam-virginia-beach-virginia-12-19-2026/event/010064F5D23331BC",
+      "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "Holiday POPS!",
+      "kind": "Music",
+      "place": "Sandler Center for the Performing Arts",
+      "city": "Virginia Beach",
+      "url": "https://virginiasymphony.org/event/holiday-pops-4/",
+      "free": false,
+      "date": "2026-12-19",
+      "time": "19:30",
+      "note": null,
+      "source": "Virginia Symphony"
+    },
+    {
+      "title": "Deputy Dan: A Tribute To Steely Dan",
+      "date": "2026-12-19",
+      "time": "20:00",
+      "kind": "Music",
+      "place": "Elevation 27",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/deputy-dan-a-tribute-to-steely-virginia-beach-virginia-12-19-2026/event/01006523FF00C164",
       "note": null,
       "source": "Ticketmaster"
     }
