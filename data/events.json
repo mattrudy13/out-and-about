@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-22T23:35:16.114Z",
-  "from": "2026-11-22",
-  "to": "2026-12-19",
+  "updated": "2026-11-23T22:01:36.471Z",
+  "from": "2026-11-23",
+  "to": "2026-12-20",
   "sources": {
     "The Z": {
       "ok": true,
@@ -10,21 +10,19 @@
       "macOnly": true
     },
     "Virginia MOCA": {
-      "ok": false,
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "keptFromLastRun": 3,
-      "checked": "2026-11-22T17:48:36.343Z"
+      "ok": true,
+      "events": 3,
+      "checked": "2026-11-23T22:01:30.309Z"
     },
     "Virginia Symphony": {
-      "ok": false,
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "keptFromLastRun": 7,
-      "checked": "2026-11-22T17:48:36.343Z"
+      "ok": true,
+      "events": 7,
+      "checked": "2026-11-23T22:01:30.309Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 2,
-      "checked": "2026-11-22T23:35:13.347Z"
+      "checked": "2026-11-23T22:01:30.309Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -35,31 +33,20 @@
     "Ticketmaster": {
       "ok": true,
       "events": 49,
-      "checked": "2026-11-22T23:35:13.347Z"
+      "checked": "2026-11-23T22:01:30.309Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 6,
-      "checked": "2026-11-22T23:35:13.347Z"
+      "checked": "2026-11-23T22:01:30.309Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-22T23:35:13.347Z"
+      "checked": "2026-11-23T22:01:30.309Z"
     }
   },
   "events": [
-    {
-      "title": "Wage War w/ We Came As Romans",
-      "date": "2026-11-22",
-      "time": "19:00",
-      "kind": "Music",
-      "place": "The Norva",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PK7f",
-      "note": null,
-      "source": "Ticketmaster"
-    },
     {
       "title": "Pouya w/ Fat Nick",
       "date": "2026-11-24",
@@ -648,6 +635,17 @@
       "place": "Elevation 27",
       "city": "Virginia Beach",
       "url": "https://www.ticketmaster.com/deputy-dan-a-tribute-to-steely-virginia-beach-virginia-12-19-2026/event/01006523FF00C164",
+      "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "Virginia Beach Chorale - Unwrapped: The Surprises of Christmas",
+      "date": "2026-12-20",
+      "time": "19:00",
+      "kind": "Music",
+      "place": "Sandler Center For The Performing Arts",
+      "city": "Virginia Beach",
+      "url": "https://www.ticketmaster.com/virginia-beach-chorale-unwrapped-the-surprises-virginia-beach-virginia-12-20-2026/event/0100652ADAEB2041",
       "note": null,
       "source": "Ticketmaster"
     }
