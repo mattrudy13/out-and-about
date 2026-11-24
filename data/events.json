@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-23T22:01:36.471Z",
-  "from": "2026-11-23",
-  "to": "2026-12-20",
+  "updated": "2026-11-24T05:58:42.077Z",
+  "from": "2026-11-24",
+  "to": "2026-12-21",
   "sources": {
     "The Z": {
       "ok": true,
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 3,
-      "checked": "2026-11-23T22:01:30.309Z"
+      "checked": "2026-11-24T05:58:38.061Z"
     },
     "Virginia Symphony": {
       "ok": true,
       "events": 7,
-      "checked": "2026-11-23T22:01:30.309Z"
+      "checked": "2026-11-24T05:58:38.061Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 2,
-      "checked": "2026-11-23T22:01:30.309Z"
+      "checked": "2026-11-24T05:58:38.061Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -32,18 +32,18 @@
     },
     "Ticketmaster": {
       "ok": true,
-      "events": 49,
-      "checked": "2026-11-23T22:01:30.309Z"
+      "events": 51,
+      "checked": "2026-11-24T05:58:38.061Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 6,
-      "checked": "2026-11-23T22:01:30.309Z"
+      "checked": "2026-11-24T05:58:38.061Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-23T22:01:30.309Z"
+      "checked": "2026-11-24T05:58:38.061Z"
     }
   },
   "events": [
@@ -646,6 +646,17 @@
       "place": "Sandler Center For The Performing Arts",
       "city": "Virginia Beach",
       "url": "https://www.ticketmaster.com/virginia-beach-chorale-unwrapped-the-surprises-virginia-beach-virginia-12-20-2026/event/0100652ADAEB2041",
+      "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "World Ballet Company: The Nutcracker with a Live Orchestra",
+      "date": "2026-12-21",
+      "time": "19:00",
+      "kind": "Theater",
+      "place": "Harrison Opera House",
+      "city": "Norfolk",
+      "url": "https://www.ticketmaster.com/world-ballet-company-the-nutcracker-with-norfolk-virginia-12-21-2026/event/01006491DF975C83",
       "note": null,
       "source": "Ticketmaster"
     }
