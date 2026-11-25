@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-25T04:53:11.779Z",
-  "from": "2026-11-24",
-  "to": "2026-12-21",
+  "updated": "2026-11-25T19:55:38.963Z",
+  "from": "2026-11-25",
+  "to": "2026-12-22",
   "sources": {
     "The Z": {
       "ok": true,
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 3,
-      "checked": "2026-11-25T04:53:06.138Z"
+      "checked": "2026-11-25T19:55:32.937Z"
     },
     "Virginia Symphony": {
       "ok": true,
       "events": 7,
-      "checked": "2026-11-25T04:53:06.138Z"
+      "checked": "2026-11-25T19:55:32.937Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 2,
-      "checked": "2026-11-25T04:53:06.138Z"
+      "checked": "2026-11-25T19:55:32.937Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -33,17 +33,17 @@
     "Ticketmaster": {
       "ok": true,
       "events": 50,
-      "checked": "2026-11-25T04:53:06.138Z"
+      "checked": "2026-11-25T19:55:32.937Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 6,
-      "checked": "2026-11-25T04:53:06.138Z"
+      "checked": "2026-11-25T19:55:32.937Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-25T04:53:06.138Z"
+      "checked": "2026-11-25T19:55:32.937Z"
     }
   },
   "events": [
@@ -646,6 +646,17 @@
       "place": "Harrison Opera House",
       "city": "Norfolk",
       "url": "https://www.ticketmaster.com/world-ballet-company-the-nutcracker-with-norfolk-virginia-12-21-2026/event/01006491DF975C83",
+      "note": null,
+      "source": "Ticketmaster"
+    },
+    {
+      "title": "World Ballet Company: The Nutcracker with a Live Orchestra",
+      "date": "2026-12-22",
+      "time": "14:00",
+      "kind": "Theater",
+      "place": "Harrison Opera House",
+      "city": "Norfolk",
+      "url": "https://www.ticketmaster.com/world-ballet-company-the-nutcracker-with-norfolk-virginia-12-22-2026/event/01006491DF995C93",
       "note": null,
       "source": "Ticketmaster"
     }
