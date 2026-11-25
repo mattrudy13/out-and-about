@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T20:38:44.109Z",
+  "updated": "2026-11-25T04:53:11.779Z",
   "from": "2026-11-24",
   "to": "2026-12-21",
   "sources": {
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 3,
-      "checked": "2026-11-24T20:38:37.990Z"
+      "checked": "2026-11-25T04:53:06.138Z"
     },
     "Virginia Symphony": {
       "ok": true,
       "events": 7,
-      "checked": "2026-11-24T20:38:37.990Z"
+      "checked": "2026-11-25T04:53:06.138Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 2,
-      "checked": "2026-11-24T20:38:37.990Z"
+      "checked": "2026-11-25T04:53:06.138Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -32,32 +32,21 @@
     },
     "Ticketmaster": {
       "ok": true,
-      "events": 51,
-      "checked": "2026-11-24T20:38:37.990Z"
+      "events": 50,
+      "checked": "2026-11-25T04:53:06.138Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 6,
-      "checked": "2026-11-24T20:38:37.990Z"
+      "checked": "2026-11-25T04:53:06.138Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-24T20:38:37.990Z"
+      "checked": "2026-11-25T04:53:06.138Z"
     }
   },
   "events": [
-    {
-      "title": "Pouya w/ Fat Nick",
-      "date": "2026-11-24",
-      "time": "19:30",
-      "kind": "Music",
-      "place": "The Norva",
-      "city": "Norfolk",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P-8J",
-      "note": null,
-      "source": "Ticketmaster"
-    },
     {
       "title": "NUTCRACKER! Magical Christmas Ballet",
       "date": "2026-11-25",
