@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-26T04:08:30.659Z",
-  "from": "2026-11-25",
-  "to": "2026-12-22",
+  "updated": "2026-11-26T19:36:26.522Z",
+  "from": "2026-11-26",
+  "to": "2026-12-23",
   "sources": {
     "The Z": {
       "ok": true,
@@ -12,17 +12,17 @@
     "Virginia MOCA": {
       "ok": true,
       "events": 3,
-      "checked": "2026-11-26T04:08:26.360Z"
+      "checked": "2026-11-26T19:36:21.695Z"
     },
     "Virginia Symphony": {
       "ok": true,
       "events": 7,
-      "checked": "2026-11-26T04:08:26.360Z"
+      "checked": "2026-11-26T19:36:21.695Z"
     },
     "Norfolk Arts": {
       "ok": true,
       "events": 2,
-      "checked": "2026-11-26T04:08:26.360Z"
+      "checked": "2026-11-26T19:36:21.695Z"
     },
     "Little Theatre of VB": {
       "ok": true,
@@ -32,43 +32,21 @@
     },
     "Ticketmaster": {
       "ok": true,
-      "events": 50,
-      "checked": "2026-11-26T04:08:26.360Z"
+      "events": 48,
+      "checked": "2026-11-26T19:36:21.695Z"
     },
     "Farmers markets": {
       "ok": true,
       "events": 6,
-      "checked": "2026-11-26T04:08:26.360Z"
+      "checked": "2026-11-26T19:36:21.695Z"
     },
     "Running (hand-kept)": {
       "ok": true,
       "events": 0,
-      "checked": "2026-11-26T04:08:26.360Z"
+      "checked": "2026-11-26T19:36:21.695Z"
     }
   },
   "events": [
-    {
-      "title": "NUTCRACKER! Magical Christmas Ballet",
-      "date": "2026-11-25",
-      "time": "15:00",
-      "kind": "Theater",
-      "place": "Sandler Center For The Performing Arts",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/nutcracker-magical-christmas-ballet-virginia-beach-virginia-11-25-2026/event/0100648DA312CE99",
-      "note": null,
-      "source": "Ticketmaster"
-    },
-    {
-      "title": "NUTCRACKER! Magical Christmas Ballet",
-      "date": "2026-11-25",
-      "time": "19:00",
-      "kind": "Theater",
-      "place": "Sandler Center For The Performing Arts",
-      "city": "Virginia Beach",
-      "url": "https://www.ticketmaster.com/nutcracker-magical-christmas-ballet-virginia-beach-virginia-11-25-2026/event/0100648DA313CEA2",
-      "note": null,
-      "source": "Ticketmaster"
-    },
     {
       "title": "Lindsey Stirling",
       "date": "2026-11-27",
